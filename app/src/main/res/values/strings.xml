@@ -1,0 +1,42 @@
+<resources>
+  <string name="app_name">Catan AI</string>
+  <string name="brick">brick</string>
+  <string name="lumber">lumber</string>
+  <string name="wool">wool</string>
+  <string name="grain">grain</string>
+  <string name="ore">ore</string>
+  <string name="desert">desert</string>
+  <string name="empty_tile">tile empty</string>
+  <string name="clear">clear</string>
+  <string name="sea">sea</string>
+  <string name="empty_number">empty number</string>
+  <string name="continueToNumbersButton">continue</string>
+  <string name="info1">Drag and drop the tiles on the board</string>
+  <string name="informationMessage">informationMessage</string>
+  <string name="card">card</string>
+  <string name="port_tile">portTile</string>
+  <string name="settlement">settlement</string>
+  <string name="tile1Number">tile1Number</string>
+  <string name="tile2Number">tile2Number</string>
+  <string name="tile3Number">tile3Number</string>
+  <string name="tile4Number">tile4Number</string>
+  <string name="tile5Number">tile5Number</string>
+  <string name="tile6Number">tile6Number</string>
+  <string name="tile7Number">tile7Number</string>
+  <string name="tile8Number">tile8Number</string>
+  <string name="tile9Number">tile9Number</string>
+  <string name="tile10Number">tile10Number</string>
+  <string name="tile11Number">tile11Number</string>
+  <string name="tile12Number">tile12Number</string>
+  <string name="tile13Number">tile13Number</string>
+  <string name="tile14Number">tile14Number</string>
+  <string name="tile15Number">tile15Number</string>
+  <string name="tile16Number">tile16Number</string>
+  <string name="tile17Number">tile17Number</string>
+  <string name="tile18Number">tile18Number</string>
+  <string name="tile19Number">tile19Number</string>
+  <style name="HiddenTitleTheme" parent="AppTheme">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+  </style>
+</resources>

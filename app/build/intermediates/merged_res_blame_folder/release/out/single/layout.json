@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\port_selector.xml",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\layout\\port_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

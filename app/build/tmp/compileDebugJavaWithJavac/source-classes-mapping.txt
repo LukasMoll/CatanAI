@@ -1,0 +1,10 @@
+com/mollestudio/android/catanai/databinding/ActivityMainBinding.java
+ com.mollestudio.android.catanai.databinding.ActivityMainBinding
+com/mollestudio/android/catanai/solver/Mapping.java
+ com.mollestudio.android.catanai.solver.Mapping
+com/mollestudio/android/catanai/solver/Parser.java
+ com.mollestudio.android.catanai.solver.Parser
+com/mollestudio/android/catanai/BuildConfig.java
+ com.mollestudio.android.catanai.BuildConfig
+com/mollestudio/android/catanai/DataBindingTriggerClass.java
+ com.mollestudio.android.catanai.DataBindingTriggerClass
