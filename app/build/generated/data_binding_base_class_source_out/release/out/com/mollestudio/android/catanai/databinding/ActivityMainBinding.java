@@ -7,10 +7,14 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
+import androidx.viewpager.widget.ViewPager;
+import com.google.android.material.tabs.TabLayout;
 import com.mollestudio.android.catanai.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -58,6 +62,9 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public final ConstraintLayout lumberCard;
+
+  @NonNull
+  public final TextView next;
 
   @NonNull
   public final ImageView ore1;
@@ -154,6 +161,9 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public final ImageView portTile9;
+
+  @NonNull
+  public final ViewPager screenPager;
 
   @NonNull
   public final ImageView seaTile1;
@@ -321,223 +331,223 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ConstraintLayout sheepCard;
 
   @NonNull
-  public final ImageView street1;
+  public final ImageView street10a;
 
   @NonNull
-  public final ImageView street10;
+  public final ImageView street10b;
 
   @NonNull
-  public final ImageView street102;
+  public final ImageView street10c;
 
   @NonNull
-  public final ImageView street103;
+  public final ImageView street10d;
 
   @NonNull
-  public final ImageView street104;
+  public final ImageView street11a;
 
   @NonNull
-  public final ImageView street11;
+  public final ImageView street11b;
 
   @NonNull
-  public final ImageView street112;
+  public final ImageView street11c;
 
   @NonNull
-  public final ImageView street113;
+  public final ImageView street12a;
 
   @NonNull
-  public final ImageView street12;
+  public final ImageView street12b;
 
   @NonNull
-  public final ImageView street121;
+  public final ImageView street12c;
 
   @NonNull
-  public final ImageView street122;
+  public final ImageView street13a;
 
   @NonNull
-  public final ImageView street123;
+  public final ImageView street13b;
 
   @NonNull
-  public final ImageView street13;
+  public final ImageView street13c;
 
   @NonNull
-  public final ImageView street131;
+  public final ImageView street13d;
 
   @NonNull
-  public final ImageView street132;
+  public final ImageView street14a;
 
   @NonNull
-  public final ImageView street133;
+  public final ImageView street14b;
 
   @NonNull
-  public final ImageView street134;
+  public final ImageView street14c;
 
   @NonNull
-  public final ImageView street14;
+  public final ImageView street14d;
 
   @NonNull
-  public final ImageView street141;
+  public final ImageView street14e;
 
   @NonNull
-  public final ImageView street142;
+  public final ImageView street15a;
 
   @NonNull
-  public final ImageView street143;
+  public final ImageView street15b;
 
   @NonNull
-  public final ImageView street144;
+  public final ImageView street15c;
 
   @NonNull
-  public final ImageView street145;
+  public final ImageView street15d;
 
   @NonNull
-  public final ImageView street15;
+  public final ImageView street15e;
 
   @NonNull
-  public final ImageView street152;
+  public final ImageView street16a;
 
   @NonNull
-  public final ImageView street153;
+  public final ImageView street16b;
 
   @NonNull
-  public final ImageView street154;
+  public final ImageView street16c;
 
   @NonNull
-  public final ImageView street155;
+  public final ImageView street16d;
 
   @NonNull
-  public final ImageView street16;
+  public final ImageView street17a;
 
   @NonNull
-  public final ImageView street162;
+  public final ImageView street17b;
 
   @NonNull
-  public final ImageView street163;
+  public final ImageView street17c;
 
   @NonNull
-  public final ImageView street164;
+  public final ImageView street1a;
 
   @NonNull
-  public final ImageView street17;
+  public final ImageView street1b;
 
   @NonNull
-  public final ImageView street172;
+  public final ImageView street1c;
 
   @NonNull
-  public final ImageView street173;
+  public final ImageView street1d;
 
   @NonNull
-  public final ImageView street2;
+  public final ImageView street2a;
 
   @NonNull
-  public final ImageView street22;
+  public final ImageView street2b;
 
   @NonNull
-  public final ImageView street23;
+  public final ImageView street2c;
 
   @NonNull
-  public final ImageView street24;
+  public final ImageView street2d;
 
   @NonNull
-  public final ImageView street25;
+  public final ImageView street2e;
 
   @NonNull
-  public final ImageView street3;
+  public final ImageView street3a;
 
   @NonNull
-  public final ImageView street32;
+  public final ImageView street3b;
 
   @NonNull
-  public final ImageView street33;
+  public final ImageView street3c;
 
   @NonNull
-  public final ImageView street34;
+  public final ImageView street3d;
 
   @NonNull
-  public final ImageView street35;
+  public final ImageView street3e;
 
   @NonNull
-  public final ImageView street36;
+  public final ImageView street3f;
 
   @NonNull
-  public final ImageView street4;
+  public final ImageView street4a;
 
   @NonNull
-  public final ImageView street42;
+  public final ImageView street4b;
 
   @NonNull
-  public final ImageView street43;
+  public final ImageView street4c;
 
   @NonNull
-  public final ImageView street44;
+  public final ImageView street4d;
 
   @NonNull
-  public final ImageView street45;
+  public final ImageView street4e;
 
   @NonNull
-  public final ImageView street5;
+  public final ImageView street5a;
 
   @NonNull
-  public final ImageView street52;
+  public final ImageView street5b;
 
   @NonNull
-  public final ImageView street53;
+  public final ImageView street5c;
 
   @NonNull
-  public final ImageView street54;
+  public final ImageView street5d;
 
   @NonNull
-  public final ImageView street6;
+  public final ImageView street6a;
 
   @NonNull
-  public final ImageView street62;
+  public final ImageView street6b;
 
   @NonNull
-  public final ImageView street63;
+  public final ImageView street6c;
 
   @NonNull
-  public final ImageView street7;
+  public final ImageView street7a;
 
   @NonNull
-  public final ImageView street72;
+  public final ImageView street7b;
 
   @NonNull
-  public final ImageView street73;
+  public final ImageView street7c;
 
   @NonNull
-  public final ImageView street74;
+  public final ImageView street7d;
 
   @NonNull
-  public final ImageView street8;
+  public final ImageView street8a;
 
   @NonNull
-  public final ImageView street82;
+  public final ImageView street8b;
 
   @NonNull
-  public final ImageView street83;
+  public final ImageView street8c;
 
   @NonNull
-  public final ImageView street84;
+  public final ImageView street8d;
 
   @NonNull
-  public final ImageView street85;
+  public final ImageView street8e;
 
   @NonNull
-  public final ImageView street9;
+  public final ImageView street9a;
 
   @NonNull
-  public final ImageView street92;
+  public final ImageView street9b;
 
   @NonNull
-  public final ImageView street93;
+  public final ImageView street9c;
 
   @NonNull
-  public final ImageView street94;
+  public final ImageView street9d;
 
   @NonNull
-  public final ImageView street95;
+  public final ImageView street9e;
 
   @NonNull
-  public final Button testButton;
+  public final TabLayout tabIndicator;
 
   @NonNull
   public final ImageView tile1;
@@ -775,8 +785,8 @@ public final class ActivityMainBinding implements ViewBinding {
       @NonNull Button clearButton, @NonNull ImageView colorButton,
       @NonNull ConstraintLayout constraintLayout, @NonNull Button continueButton,
       @NonNull ImageView desert, @NonNull ImageView grain1, @NonNull ConstraintLayout grainCard,
-      @NonNull ImageView lumber1, @NonNull ConstraintLayout lumberCard, @NonNull ImageView ore1,
-      @NonNull ConstraintLayout oreCard, @NonNull ImageView portTile1,
+      @NonNull ImageView lumber1, @NonNull ConstraintLayout lumberCard, @NonNull TextView next,
+      @NonNull ImageView ore1, @NonNull ConstraintLayout oreCard, @NonNull ImageView portTile1,
       @NonNull ImageView portTile10, @NonNull ImageView portTile11, @NonNull ImageView portTile12,
       @NonNull ImageView portTile13, @NonNull ImageView portTile14, @NonNull ImageView portTile15,
       @NonNull ImageView portTile16, @NonNull ImageView portTile17, @NonNull ImageView portTile18,
@@ -786,77 +796,78 @@ public final class ActivityMainBinding implements ViewBinding {
       @NonNull ImageView portTile27, @NonNull ImageView portTile28, @NonNull ImageView portTile29,
       @NonNull ImageView portTile3, @NonNull ImageView portTile30, @NonNull ImageView portTile4,
       @NonNull ImageView portTile5, @NonNull ImageView portTile6, @NonNull ImageView portTile7,
-      @NonNull ImageView portTile8, @NonNull ImageView portTile9, @NonNull ImageView seaTile1,
-      @NonNull ImageView seaTile10, @NonNull ImageView seaTile11, @NonNull ImageView seaTile12,
-      @NonNull ImageView seaTile13, @NonNull ImageView seaTile14, @NonNull ImageView seaTile15,
-      @NonNull ImageView seaTile16, @NonNull ImageView seaTile17, @NonNull ImageView seaTile18,
-      @NonNull ImageView seaTile2, @NonNull ImageView seaTile3, @NonNull ImageView seaTile4,
-      @NonNull ImageView seaTile5, @NonNull ImageView seaTile6, @NonNull ImageView seaTile7,
-      @NonNull ImageView seaTile8, @NonNull ImageView seaTile9, @NonNull ImageView settlementB2,
-      @NonNull ImageView settlementB3, @NonNull ImageView settlementC1,
-      @NonNull ImageView settlementC2, @NonNull ImageView settlementC3,
-      @NonNull ImageView settlementC4, @NonNull ImageView settlementD2,
-      @NonNull ImageView settlementD3, @NonNull ImageView settlementD4,
-      @NonNull ImageView settlementE1, @NonNull ImageView settlementE2,
-      @NonNull ImageView settlementE3, @NonNull ImageView settlementE4,
-      @NonNull ImageView settlementE5, @NonNull ImageView settlementF2,
-      @NonNull ImageView settlementF3, @NonNull ImageView settlementF4,
-      @NonNull ImageView settlementF5, @NonNull ImageView settlementG2,
-      @NonNull ImageView settlementG3, @NonNull ImageView settlementG4,
-      @NonNull ImageView settlementG5, @NonNull ImageView settlementH1,
-      @NonNull ImageView settlementH2, @NonNull ImageView settlementH3,
-      @NonNull ImageView settlementH4, @NonNull ImageView settlementH5,
-      @NonNull ImageView settlementI2, @NonNull ImageView settlementI3,
-      @NonNull ImageView settlementI4, @NonNull ImageView settlementJ1,
-      @NonNull ImageView settlementJ2, @NonNull ImageView settlementJ3,
-      @NonNull ImageView settlementJ4, @NonNull ImageView settlementK2,
-      @NonNull ImageView settlementK3, @NonNull ConstraintLayout sheepCard,
-      @NonNull ImageView street1, @NonNull ImageView street10, @NonNull ImageView street102,
-      @NonNull ImageView street103, @NonNull ImageView street104, @NonNull ImageView street11,
-      @NonNull ImageView street112, @NonNull ImageView street113, @NonNull ImageView street12,
-      @NonNull ImageView street121, @NonNull ImageView street122, @NonNull ImageView street123,
-      @NonNull ImageView street13, @NonNull ImageView street131, @NonNull ImageView street132,
-      @NonNull ImageView street133, @NonNull ImageView street134, @NonNull ImageView street14,
-      @NonNull ImageView street141, @NonNull ImageView street142, @NonNull ImageView street143,
-      @NonNull ImageView street144, @NonNull ImageView street145, @NonNull ImageView street15,
-      @NonNull ImageView street152, @NonNull ImageView street153, @NonNull ImageView street154,
-      @NonNull ImageView street155, @NonNull ImageView street16, @NonNull ImageView street162,
-      @NonNull ImageView street163, @NonNull ImageView street164, @NonNull ImageView street17,
-      @NonNull ImageView street172, @NonNull ImageView street173, @NonNull ImageView street2,
-      @NonNull ImageView street22, @NonNull ImageView street23, @NonNull ImageView street24,
-      @NonNull ImageView street25, @NonNull ImageView street3, @NonNull ImageView street32,
-      @NonNull ImageView street33, @NonNull ImageView street34, @NonNull ImageView street35,
-      @NonNull ImageView street36, @NonNull ImageView street4, @NonNull ImageView street42,
-      @NonNull ImageView street43, @NonNull ImageView street44, @NonNull ImageView street45,
-      @NonNull ImageView street5, @NonNull ImageView street52, @NonNull ImageView street53,
-      @NonNull ImageView street54, @NonNull ImageView street6, @NonNull ImageView street62,
-      @NonNull ImageView street63, @NonNull ImageView street7, @NonNull ImageView street72,
-      @NonNull ImageView street73, @NonNull ImageView street74, @NonNull ImageView street8,
-      @NonNull ImageView street82, @NonNull ImageView street83, @NonNull ImageView street84,
-      @NonNull ImageView street85, @NonNull ImageView street9, @NonNull ImageView street92,
-      @NonNull ImageView street93, @NonNull ImageView street94, @NonNull ImageView street95,
-      @NonNull Button testButton, @NonNull ImageView tile1, @NonNull ImageView tile10,
-      @NonNull ConstraintLayout tile10DropArea, @NonNull ImageView tile10Number,
-      @NonNull EditText tile10NumberInput, @NonNull ImageView tile11,
-      @NonNull ConstraintLayout tile11DropArea, @NonNull ImageView tile11Number,
-      @NonNull EditText tile11NumberInput, @NonNull ImageView tile12,
-      @NonNull ConstraintLayout tile12DropArea, @NonNull ImageView tile12Number,
-      @NonNull EditText tile12NumberInput, @NonNull ImageView tile13,
-      @NonNull ConstraintLayout tile13DropArea, @NonNull ImageView tile13Number,
-      @NonNull EditText tile13NumberInput, @NonNull ImageView tile14,
-      @NonNull ConstraintLayout tile14DropArea, @NonNull ImageView tile14Number,
-      @NonNull EditText tile14NumberInput, @NonNull ImageView tile15,
-      @NonNull ConstraintLayout tile15DropArea, @NonNull ImageView tile15Number,
-      @NonNull EditText tile15NumberInput, @NonNull ImageView tile16,
-      @NonNull ConstraintLayout tile16DropArea, @NonNull ImageView tile16Number,
-      @NonNull EditText tile16NumberInput, @NonNull ImageView tile17,
-      @NonNull ConstraintLayout tile17DropArea, @NonNull ImageView tile17Number,
-      @NonNull EditText tile17NumberInput, @NonNull ImageView tile18,
-      @NonNull ConstraintLayout tile18DropArea, @NonNull ImageView tile18Number,
-      @NonNull EditText tile18NumberInput, @NonNull ImageView tile19,
-      @NonNull ConstraintLayout tile19DropArea, @NonNull ImageView tile19Number,
-      @NonNull EditText tile19NumberInput, @NonNull ConstraintLayout tile1DropArea,
-      @NonNull ImageView tile1Number, @NonNull EditText tile1NumberInput, @NonNull ImageView tile2,
+      @NonNull ImageView portTile8, @NonNull ImageView portTile9, @NonNull ViewPager screenPager,
+      @NonNull ImageView seaTile1, @NonNull ImageView seaTile10, @NonNull ImageView seaTile11,
+      @NonNull ImageView seaTile12, @NonNull ImageView seaTile13, @NonNull ImageView seaTile14,
+      @NonNull ImageView seaTile15, @NonNull ImageView seaTile16, @NonNull ImageView seaTile17,
+      @NonNull ImageView seaTile18, @NonNull ImageView seaTile2, @NonNull ImageView seaTile3,
+      @NonNull ImageView seaTile4, @NonNull ImageView seaTile5, @NonNull ImageView seaTile6,
+      @NonNull ImageView seaTile7, @NonNull ImageView seaTile8, @NonNull ImageView seaTile9,
+      @NonNull ImageView settlementB2, @NonNull ImageView settlementB3,
+      @NonNull ImageView settlementC1, @NonNull ImageView settlementC2,
+      @NonNull ImageView settlementC3, @NonNull ImageView settlementC4,
+      @NonNull ImageView settlementD2, @NonNull ImageView settlementD3,
+      @NonNull ImageView settlementD4, @NonNull ImageView settlementE1,
+      @NonNull ImageView settlementE2, @NonNull ImageView settlementE3,
+      @NonNull ImageView settlementE4, @NonNull ImageView settlementE5,
+      @NonNull ImageView settlementF2, @NonNull ImageView settlementF3,
+      @NonNull ImageView settlementF4, @NonNull ImageView settlementF5,
+      @NonNull ImageView settlementG2, @NonNull ImageView settlementG3,
+      @NonNull ImageView settlementG4, @NonNull ImageView settlementG5,
+      @NonNull ImageView settlementH1, @NonNull ImageView settlementH2,
+      @NonNull ImageView settlementH3, @NonNull ImageView settlementH4,
+      @NonNull ImageView settlementH5, @NonNull ImageView settlementI2,
+      @NonNull ImageView settlementI3, @NonNull ImageView settlementI4,
+      @NonNull ImageView settlementJ1, @NonNull ImageView settlementJ2,
+      @NonNull ImageView settlementJ3, @NonNull ImageView settlementJ4,
+      @NonNull ImageView settlementK2, @NonNull ImageView settlementK3,
+      @NonNull ConstraintLayout sheepCard, @NonNull ImageView street10a,
+      @NonNull ImageView street10b, @NonNull ImageView street10c, @NonNull ImageView street10d,
+      @NonNull ImageView street11a, @NonNull ImageView street11b, @NonNull ImageView street11c,
+      @NonNull ImageView street12a, @NonNull ImageView street12b, @NonNull ImageView street12c,
+      @NonNull ImageView street13a, @NonNull ImageView street13b, @NonNull ImageView street13c,
+      @NonNull ImageView street13d, @NonNull ImageView street14a, @NonNull ImageView street14b,
+      @NonNull ImageView street14c, @NonNull ImageView street14d, @NonNull ImageView street14e,
+      @NonNull ImageView street15a, @NonNull ImageView street15b, @NonNull ImageView street15c,
+      @NonNull ImageView street15d, @NonNull ImageView street15e, @NonNull ImageView street16a,
+      @NonNull ImageView street16b, @NonNull ImageView street16c, @NonNull ImageView street16d,
+      @NonNull ImageView street17a, @NonNull ImageView street17b, @NonNull ImageView street17c,
+      @NonNull ImageView street1a, @NonNull ImageView street1b, @NonNull ImageView street1c,
+      @NonNull ImageView street1d, @NonNull ImageView street2a, @NonNull ImageView street2b,
+      @NonNull ImageView street2c, @NonNull ImageView street2d, @NonNull ImageView street2e,
+      @NonNull ImageView street3a, @NonNull ImageView street3b, @NonNull ImageView street3c,
+      @NonNull ImageView street3d, @NonNull ImageView street3e, @NonNull ImageView street3f,
+      @NonNull ImageView street4a, @NonNull ImageView street4b, @NonNull ImageView street4c,
+      @NonNull ImageView street4d, @NonNull ImageView street4e, @NonNull ImageView street5a,
+      @NonNull ImageView street5b, @NonNull ImageView street5c, @NonNull ImageView street5d,
+      @NonNull ImageView street6a, @NonNull ImageView street6b, @NonNull ImageView street6c,
+      @NonNull ImageView street7a, @NonNull ImageView street7b, @NonNull ImageView street7c,
+      @NonNull ImageView street7d, @NonNull ImageView street8a, @NonNull ImageView street8b,
+      @NonNull ImageView street8c, @NonNull ImageView street8d, @NonNull ImageView street8e,
+      @NonNull ImageView street9a, @NonNull ImageView street9b, @NonNull ImageView street9c,
+      @NonNull ImageView street9d, @NonNull ImageView street9e, @NonNull TabLayout tabIndicator,
+      @NonNull ImageView tile1, @NonNull ImageView tile10, @NonNull ConstraintLayout tile10DropArea,
+      @NonNull ImageView tile10Number, @NonNull EditText tile10NumberInput,
+      @NonNull ImageView tile11, @NonNull ConstraintLayout tile11DropArea,
+      @NonNull ImageView tile11Number, @NonNull EditText tile11NumberInput,
+      @NonNull ImageView tile12, @NonNull ConstraintLayout tile12DropArea,
+      @NonNull ImageView tile12Number, @NonNull EditText tile12NumberInput,
+      @NonNull ImageView tile13, @NonNull ConstraintLayout tile13DropArea,
+      @NonNull ImageView tile13Number, @NonNull EditText tile13NumberInput,
+      @NonNull ImageView tile14, @NonNull ConstraintLayout tile14DropArea,
+      @NonNull ImageView tile14Number, @NonNull EditText tile14NumberInput,
+      @NonNull ImageView tile15, @NonNull ConstraintLayout tile15DropArea,
+      @NonNull ImageView tile15Number, @NonNull EditText tile15NumberInput,
+      @NonNull ImageView tile16, @NonNull ConstraintLayout tile16DropArea,
+      @NonNull ImageView tile16Number, @NonNull EditText tile16NumberInput,
+      @NonNull ImageView tile17, @NonNull ConstraintLayout tile17DropArea,
+      @NonNull ImageView tile17Number, @NonNull EditText tile17NumberInput,
+      @NonNull ImageView tile18, @NonNull ConstraintLayout tile18DropArea,
+      @NonNull ImageView tile18Number, @NonNull EditText tile18NumberInput,
+      @NonNull ImageView tile19, @NonNull ConstraintLayout tile19DropArea,
+      @NonNull ImageView tile19Number, @NonNull EditText tile19NumberInput,
+      @NonNull ConstraintLayout tile1DropArea, @NonNull ImageView tile1Number,
+      @NonNull EditText tile1NumberInput, @NonNull ImageView tile2,
       @NonNull ConstraintLayout tile2DropArea, @NonNull ImageView tile2Number,
       @NonNull EditText tile2NumberInput, @NonNull ImageView tile3,
       @NonNull ConstraintLayout tile3DropArea, @NonNull ImageView tile3Number,
@@ -887,6 +898,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.grainCard = grainCard;
     this.lumber1 = lumber1;
     this.lumberCard = lumberCard;
+    this.next = next;
     this.ore1 = ore1;
     this.oreCard = oreCard;
     this.portTile1 = portTile1;
@@ -919,6 +931,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.portTile7 = portTile7;
     this.portTile8 = portTile8;
     this.portTile9 = portTile9;
+    this.screenPager = screenPager;
     this.seaTile1 = seaTile1;
     this.seaTile10 = seaTile10;
     this.seaTile11 = seaTile11;
@@ -974,79 +987,79 @@ public final class ActivityMainBinding implements ViewBinding {
     this.settlementK2 = settlementK2;
     this.settlementK3 = settlementK3;
     this.sheepCard = sheepCard;
-    this.street1 = street1;
-    this.street10 = street10;
-    this.street102 = street102;
-    this.street103 = street103;
-    this.street104 = street104;
-    this.street11 = street11;
-    this.street112 = street112;
-    this.street113 = street113;
-    this.street12 = street12;
-    this.street121 = street121;
-    this.street122 = street122;
-    this.street123 = street123;
-    this.street13 = street13;
-    this.street131 = street131;
-    this.street132 = street132;
-    this.street133 = street133;
-    this.street134 = street134;
-    this.street14 = street14;
-    this.street141 = street141;
-    this.street142 = street142;
-    this.street143 = street143;
-    this.street144 = street144;
-    this.street145 = street145;
-    this.street15 = street15;
-    this.street152 = street152;
-    this.street153 = street153;
-    this.street154 = street154;
-    this.street155 = street155;
-    this.street16 = street16;
-    this.street162 = street162;
-    this.street163 = street163;
-    this.street164 = street164;
-    this.street17 = street17;
-    this.street172 = street172;
-    this.street173 = street173;
-    this.street2 = street2;
-    this.street22 = street22;
-    this.street23 = street23;
-    this.street24 = street24;
-    this.street25 = street25;
-    this.street3 = street3;
-    this.street32 = street32;
-    this.street33 = street33;
-    this.street34 = street34;
-    this.street35 = street35;
-    this.street36 = street36;
-    this.street4 = street4;
-    this.street42 = street42;
-    this.street43 = street43;
-    this.street44 = street44;
-    this.street45 = street45;
-    this.street5 = street5;
-    this.street52 = street52;
-    this.street53 = street53;
-    this.street54 = street54;
-    this.street6 = street6;
-    this.street62 = street62;
-    this.street63 = street63;
-    this.street7 = street7;
-    this.street72 = street72;
-    this.street73 = street73;
-    this.street74 = street74;
-    this.street8 = street8;
-    this.street82 = street82;
-    this.street83 = street83;
-    this.street84 = street84;
-    this.street85 = street85;
-    this.street9 = street9;
-    this.street92 = street92;
-    this.street93 = street93;
-    this.street94 = street94;
-    this.street95 = street95;
-    this.testButton = testButton;
+    this.street10a = street10a;
+    this.street10b = street10b;
+    this.street10c = street10c;
+    this.street10d = street10d;
+    this.street11a = street11a;
+    this.street11b = street11b;
+    this.street11c = street11c;
+    this.street12a = street12a;
+    this.street12b = street12b;
+    this.street12c = street12c;
+    this.street13a = street13a;
+    this.street13b = street13b;
+    this.street13c = street13c;
+    this.street13d = street13d;
+    this.street14a = street14a;
+    this.street14b = street14b;
+    this.street14c = street14c;
+    this.street14d = street14d;
+    this.street14e = street14e;
+    this.street15a = street15a;
+    this.street15b = street15b;
+    this.street15c = street15c;
+    this.street15d = street15d;
+    this.street15e = street15e;
+    this.street16a = street16a;
+    this.street16b = street16b;
+    this.street16c = street16c;
+    this.street16d = street16d;
+    this.street17a = street17a;
+    this.street17b = street17b;
+    this.street17c = street17c;
+    this.street1a = street1a;
+    this.street1b = street1b;
+    this.street1c = street1c;
+    this.street1d = street1d;
+    this.street2a = street2a;
+    this.street2b = street2b;
+    this.street2c = street2c;
+    this.street2d = street2d;
+    this.street2e = street2e;
+    this.street3a = street3a;
+    this.street3b = street3b;
+    this.street3c = street3c;
+    this.street3d = street3d;
+    this.street3e = street3e;
+    this.street3f = street3f;
+    this.street4a = street4a;
+    this.street4b = street4b;
+    this.street4c = street4c;
+    this.street4d = street4d;
+    this.street4e = street4e;
+    this.street5a = street5a;
+    this.street5b = street5b;
+    this.street5c = street5c;
+    this.street5d = street5d;
+    this.street6a = street6a;
+    this.street6b = street6b;
+    this.street6c = street6c;
+    this.street7a = street7a;
+    this.street7b = street7b;
+    this.street7c = street7c;
+    this.street7d = street7d;
+    this.street8a = street8a;
+    this.street8b = street8b;
+    this.street8c = street8c;
+    this.street8d = street8d;
+    this.street8e = street8e;
+    this.street9a = street9a;
+    this.street9b = street9b;
+    this.street9c = street9c;
+    this.street9d = street9d;
+    this.street9e = street9e;
+    this.tabIndicator = tabIndicator;
     this.tile1 = tile1;
     this.tile10 = tile10;
     this.tile10DropArea = tile10DropArea;
@@ -1154,37 +1167,37 @@ public final class ActivityMainBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.board;
-      ConstraintLayout board = rootView.findViewById(id);
+      ConstraintLayout board = ViewBindings.findChildViewById(rootView, id);
       if (board == null) {
         break missingId;
       }
 
       id = R.id.brick1;
-      ImageView brick1 = rootView.findViewById(id);
+      ImageView brick1 = ViewBindings.findChildViewById(rootView, id);
       if (brick1 == null) {
         break missingId;
       }
 
       id = R.id.brick_card;
-      ConstraintLayout brickCard = rootView.findViewById(id);
+      ConstraintLayout brickCard = ViewBindings.findChildViewById(rootView, id);
       if (brickCard == null) {
         break missingId;
       }
 
       id = R.id.cards;
-      ImageView cards = rootView.findViewById(id);
+      ImageView cards = ViewBindings.findChildViewById(rootView, id);
       if (cards == null) {
         break missingId;
       }
 
       id = R.id.clear_button;
-      Button clearButton = rootView.findViewById(id);
+      Button clearButton = ViewBindings.findChildViewById(rootView, id);
       if (clearButton == null) {
         break missingId;
       }
 
       id = R.id.color_button;
-      ImageView colorButton = rootView.findViewById(id);
+      ImageView colorButton = ViewBindings.findChildViewById(rootView, id);
       if (colorButton == null) {
         break missingId;
       }
@@ -1192,1499 +1205,1512 @@ public final class ActivityMainBinding implements ViewBinding {
       ConstraintLayout constraintLayout = (ConstraintLayout) rootView;
 
       id = R.id.continue_button;
-      Button continueButton = rootView.findViewById(id);
+      Button continueButton = ViewBindings.findChildViewById(rootView, id);
       if (continueButton == null) {
         break missingId;
       }
 
       id = R.id.desert;
-      ImageView desert = rootView.findViewById(id);
+      ImageView desert = ViewBindings.findChildViewById(rootView, id);
       if (desert == null) {
         break missingId;
       }
 
       id = R.id.grain1;
-      ImageView grain1 = rootView.findViewById(id);
+      ImageView grain1 = ViewBindings.findChildViewById(rootView, id);
       if (grain1 == null) {
         break missingId;
       }
 
       id = R.id.grain_card;
-      ConstraintLayout grainCard = rootView.findViewById(id);
+      ConstraintLayout grainCard = ViewBindings.findChildViewById(rootView, id);
       if (grainCard == null) {
         break missingId;
       }
 
       id = R.id.lumber1;
-      ImageView lumber1 = rootView.findViewById(id);
+      ImageView lumber1 = ViewBindings.findChildViewById(rootView, id);
       if (lumber1 == null) {
         break missingId;
       }
 
       id = R.id.lumber_card;
-      ConstraintLayout lumberCard = rootView.findViewById(id);
+      ConstraintLayout lumberCard = ViewBindings.findChildViewById(rootView, id);
       if (lumberCard == null) {
         break missingId;
       }
 
+      id = R.id.next;
+      TextView next = ViewBindings.findChildViewById(rootView, id);
+      if (next == null) {
+        break missingId;
+      }
+
       id = R.id.ore1;
-      ImageView ore1 = rootView.findViewById(id);
+      ImageView ore1 = ViewBindings.findChildViewById(rootView, id);
       if (ore1 == null) {
         break missingId;
       }
 
       id = R.id.ore_card;
-      ConstraintLayout oreCard = rootView.findViewById(id);
+      ConstraintLayout oreCard = ViewBindings.findChildViewById(rootView, id);
       if (oreCard == null) {
         break missingId;
       }
 
       id = R.id.portTile1;
-      ImageView portTile1 = rootView.findViewById(id);
+      ImageView portTile1 = ViewBindings.findChildViewById(rootView, id);
       if (portTile1 == null) {
         break missingId;
       }
 
       id = R.id.portTile10;
-      ImageView portTile10 = rootView.findViewById(id);
+      ImageView portTile10 = ViewBindings.findChildViewById(rootView, id);
       if (portTile10 == null) {
         break missingId;
       }
 
       id = R.id.portTile11;
-      ImageView portTile11 = rootView.findViewById(id);
+      ImageView portTile11 = ViewBindings.findChildViewById(rootView, id);
       if (portTile11 == null) {
         break missingId;
       }
 
       id = R.id.portTile12;
-      ImageView portTile12 = rootView.findViewById(id);
+      ImageView portTile12 = ViewBindings.findChildViewById(rootView, id);
       if (portTile12 == null) {
         break missingId;
       }
 
       id = R.id.portTile13;
-      ImageView portTile13 = rootView.findViewById(id);
+      ImageView portTile13 = ViewBindings.findChildViewById(rootView, id);
       if (portTile13 == null) {
         break missingId;
       }
 
       id = R.id.portTile14;
-      ImageView portTile14 = rootView.findViewById(id);
+      ImageView portTile14 = ViewBindings.findChildViewById(rootView, id);
       if (portTile14 == null) {
         break missingId;
       }
 
       id = R.id.portTile15;
-      ImageView portTile15 = rootView.findViewById(id);
+      ImageView portTile15 = ViewBindings.findChildViewById(rootView, id);
       if (portTile15 == null) {
         break missingId;
       }
 
       id = R.id.portTile16;
-      ImageView portTile16 = rootView.findViewById(id);
+      ImageView portTile16 = ViewBindings.findChildViewById(rootView, id);
       if (portTile16 == null) {
         break missingId;
       }
 
       id = R.id.portTile17;
-      ImageView portTile17 = rootView.findViewById(id);
+      ImageView portTile17 = ViewBindings.findChildViewById(rootView, id);
       if (portTile17 == null) {
         break missingId;
       }
 
       id = R.id.portTile18;
-      ImageView portTile18 = rootView.findViewById(id);
+      ImageView portTile18 = ViewBindings.findChildViewById(rootView, id);
       if (portTile18 == null) {
         break missingId;
       }
 
       id = R.id.portTile19;
-      ImageView portTile19 = rootView.findViewById(id);
+      ImageView portTile19 = ViewBindings.findChildViewById(rootView, id);
       if (portTile19 == null) {
         break missingId;
       }
 
       id = R.id.portTile2;
-      ImageView portTile2 = rootView.findViewById(id);
+      ImageView portTile2 = ViewBindings.findChildViewById(rootView, id);
       if (portTile2 == null) {
         break missingId;
       }
 
       id = R.id.portTile20;
-      ImageView portTile20 = rootView.findViewById(id);
+      ImageView portTile20 = ViewBindings.findChildViewById(rootView, id);
       if (portTile20 == null) {
         break missingId;
       }
 
       id = R.id.portTile21;
-      ImageView portTile21 = rootView.findViewById(id);
+      ImageView portTile21 = ViewBindings.findChildViewById(rootView, id);
       if (portTile21 == null) {
         break missingId;
       }
 
       id = R.id.portTile22;
-      ImageView portTile22 = rootView.findViewById(id);
+      ImageView portTile22 = ViewBindings.findChildViewById(rootView, id);
       if (portTile22 == null) {
         break missingId;
       }
 
       id = R.id.portTile23;
-      ImageView portTile23 = rootView.findViewById(id);
+      ImageView portTile23 = ViewBindings.findChildViewById(rootView, id);
       if (portTile23 == null) {
         break missingId;
       }
 
       id = R.id.portTile24;
-      ImageView portTile24 = rootView.findViewById(id);
+      ImageView portTile24 = ViewBindings.findChildViewById(rootView, id);
       if (portTile24 == null) {
         break missingId;
       }
 
       id = R.id.portTile25;
-      ImageView portTile25 = rootView.findViewById(id);
+      ImageView portTile25 = ViewBindings.findChildViewById(rootView, id);
       if (portTile25 == null) {
         break missingId;
       }
 
       id = R.id.portTile26;
-      ImageView portTile26 = rootView.findViewById(id);
+      ImageView portTile26 = ViewBindings.findChildViewById(rootView, id);
       if (portTile26 == null) {
         break missingId;
       }
 
       id = R.id.portTile27;
-      ImageView portTile27 = rootView.findViewById(id);
+      ImageView portTile27 = ViewBindings.findChildViewById(rootView, id);
       if (portTile27 == null) {
         break missingId;
       }
 
       id = R.id.portTile28;
-      ImageView portTile28 = rootView.findViewById(id);
+      ImageView portTile28 = ViewBindings.findChildViewById(rootView, id);
       if (portTile28 == null) {
         break missingId;
       }
 
       id = R.id.portTile29;
-      ImageView portTile29 = rootView.findViewById(id);
+      ImageView portTile29 = ViewBindings.findChildViewById(rootView, id);
       if (portTile29 == null) {
         break missingId;
       }
 
       id = R.id.portTile3;
-      ImageView portTile3 = rootView.findViewById(id);
+      ImageView portTile3 = ViewBindings.findChildViewById(rootView, id);
       if (portTile3 == null) {
         break missingId;
       }
 
       id = R.id.portTile30;
-      ImageView portTile30 = rootView.findViewById(id);
+      ImageView portTile30 = ViewBindings.findChildViewById(rootView, id);
       if (portTile30 == null) {
         break missingId;
       }
 
       id = R.id.portTile4;
-      ImageView portTile4 = rootView.findViewById(id);
+      ImageView portTile4 = ViewBindings.findChildViewById(rootView, id);
       if (portTile4 == null) {
         break missingId;
       }
 
       id = R.id.portTile5;
-      ImageView portTile5 = rootView.findViewById(id);
+      ImageView portTile5 = ViewBindings.findChildViewById(rootView, id);
       if (portTile5 == null) {
         break missingId;
       }
 
       id = R.id.portTile6;
-      ImageView portTile6 = rootView.findViewById(id);
+      ImageView portTile6 = ViewBindings.findChildViewById(rootView, id);
       if (portTile6 == null) {
         break missingId;
       }
 
       id = R.id.portTile7;
-      ImageView portTile7 = rootView.findViewById(id);
+      ImageView portTile7 = ViewBindings.findChildViewById(rootView, id);
       if (portTile7 == null) {
         break missingId;
       }
 
       id = R.id.portTile8;
-      ImageView portTile8 = rootView.findViewById(id);
+      ImageView portTile8 = ViewBindings.findChildViewById(rootView, id);
       if (portTile8 == null) {
         break missingId;
       }
 
       id = R.id.portTile9;
-      ImageView portTile9 = rootView.findViewById(id);
+      ImageView portTile9 = ViewBindings.findChildViewById(rootView, id);
       if (portTile9 == null) {
         break missingId;
       }
 
+      id = R.id.screenPager;
+      ViewPager screenPager = ViewBindings.findChildViewById(rootView, id);
+      if (screenPager == null) {
+        break missingId;
+      }
+
       id = R.id.seaTile1;
-      ImageView seaTile1 = rootView.findViewById(id);
+      ImageView seaTile1 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile1 == null) {
         break missingId;
       }
 
       id = R.id.seaTile10;
-      ImageView seaTile10 = rootView.findViewById(id);
+      ImageView seaTile10 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile10 == null) {
         break missingId;
       }
 
       id = R.id.seaTile11;
-      ImageView seaTile11 = rootView.findViewById(id);
+      ImageView seaTile11 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile11 == null) {
         break missingId;
       }
 
       id = R.id.seaTile12;
-      ImageView seaTile12 = rootView.findViewById(id);
+      ImageView seaTile12 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile12 == null) {
         break missingId;
       }
 
       id = R.id.seaTile13;
-      ImageView seaTile13 = rootView.findViewById(id);
+      ImageView seaTile13 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile13 == null) {
         break missingId;
       }
 
       id = R.id.seaTile14;
-      ImageView seaTile14 = rootView.findViewById(id);
+      ImageView seaTile14 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile14 == null) {
         break missingId;
       }
 
       id = R.id.seaTile15;
-      ImageView seaTile15 = rootView.findViewById(id);
+      ImageView seaTile15 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile15 == null) {
         break missingId;
       }
 
       id = R.id.seaTile16;
-      ImageView seaTile16 = rootView.findViewById(id);
+      ImageView seaTile16 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile16 == null) {
         break missingId;
       }
 
       id = R.id.seaTile17;
-      ImageView seaTile17 = rootView.findViewById(id);
+      ImageView seaTile17 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile17 == null) {
         break missingId;
       }
 
       id = R.id.seaTile18;
-      ImageView seaTile18 = rootView.findViewById(id);
+      ImageView seaTile18 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile18 == null) {
         break missingId;
       }
 
       id = R.id.seaTile2;
-      ImageView seaTile2 = rootView.findViewById(id);
+      ImageView seaTile2 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile2 == null) {
         break missingId;
       }
 
       id = R.id.seaTile3;
-      ImageView seaTile3 = rootView.findViewById(id);
+      ImageView seaTile3 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile3 == null) {
         break missingId;
       }
 
       id = R.id.seaTile4;
-      ImageView seaTile4 = rootView.findViewById(id);
+      ImageView seaTile4 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile4 == null) {
         break missingId;
       }
 
       id = R.id.seaTile5;
-      ImageView seaTile5 = rootView.findViewById(id);
+      ImageView seaTile5 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile5 == null) {
         break missingId;
       }
 
       id = R.id.seaTile6;
-      ImageView seaTile6 = rootView.findViewById(id);
+      ImageView seaTile6 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile6 == null) {
         break missingId;
       }
 
       id = R.id.seaTile7;
-      ImageView seaTile7 = rootView.findViewById(id);
+      ImageView seaTile7 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile7 == null) {
         break missingId;
       }
 
       id = R.id.seaTile8;
-      ImageView seaTile8 = rootView.findViewById(id);
+      ImageView seaTile8 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile8 == null) {
         break missingId;
       }
 
       id = R.id.seaTile9;
-      ImageView seaTile9 = rootView.findViewById(id);
+      ImageView seaTile9 = ViewBindings.findChildViewById(rootView, id);
       if (seaTile9 == null) {
         break missingId;
       }
 
       id = R.id.settlement_b2;
-      ImageView settlementB2 = rootView.findViewById(id);
+      ImageView settlementB2 = ViewBindings.findChildViewById(rootView, id);
       if (settlementB2 == null) {
         break missingId;
       }
 
       id = R.id.settlement_b3;
-      ImageView settlementB3 = rootView.findViewById(id);
+      ImageView settlementB3 = ViewBindings.findChildViewById(rootView, id);
       if (settlementB3 == null) {
         break missingId;
       }
 
       id = R.id.settlement_c1;
-      ImageView settlementC1 = rootView.findViewById(id);
+      ImageView settlementC1 = ViewBindings.findChildViewById(rootView, id);
       if (settlementC1 == null) {
         break missingId;
       }
 
       id = R.id.settlement_c2;
-      ImageView settlementC2 = rootView.findViewById(id);
+      ImageView settlementC2 = ViewBindings.findChildViewById(rootView, id);
       if (settlementC2 == null) {
         break missingId;
       }
 
       id = R.id.settlement_c3;
-      ImageView settlementC3 = rootView.findViewById(id);
+      ImageView settlementC3 = ViewBindings.findChildViewById(rootView, id);
       if (settlementC3 == null) {
         break missingId;
       }
 
       id = R.id.settlement_c4;
-      ImageView settlementC4 = rootView.findViewById(id);
+      ImageView settlementC4 = ViewBindings.findChildViewById(rootView, id);
       if (settlementC4 == null) {
         break missingId;
       }
 
       id = R.id.settlement_d2;
-      ImageView settlementD2 = rootView.findViewById(id);
+      ImageView settlementD2 = ViewBindings.findChildViewById(rootView, id);
       if (settlementD2 == null) {
         break missingId;
       }
 
       id = R.id.settlement_d3;
-      ImageView settlementD3 = rootView.findViewById(id);
+      ImageView settlementD3 = ViewBindings.findChildViewById(rootView, id);
       if (settlementD3 == null) {
         break missingId;
       }
 
       id = R.id.settlement_d4;
-      ImageView settlementD4 = rootView.findViewById(id);
+      ImageView settlementD4 = ViewBindings.findChildViewById(rootView, id);
       if (settlementD4 == null) {
         break missingId;
       }
 
       id = R.id.settlement_e1;
-      ImageView settlementE1 = rootView.findViewById(id);
+      ImageView settlementE1 = ViewBindings.findChildViewById(rootView, id);
       if (settlementE1 == null) {
         break missingId;
       }
 
       id = R.id.settlement_e2;
-      ImageView settlementE2 = rootView.findViewById(id);
+      ImageView settlementE2 = ViewBindings.findChildViewById(rootView, id);
       if (settlementE2 == null) {
         break missingId;
       }
 
       id = R.id.settlement_e3;
-      ImageView settlementE3 = rootView.findViewById(id);
+      ImageView settlementE3 = ViewBindings.findChildViewById(rootView, id);
       if (settlementE3 == null) {
         break missingId;
       }
 
       id = R.id.settlement_e4;
-      ImageView settlementE4 = rootView.findViewById(id);
+      ImageView settlementE4 = ViewBindings.findChildViewById(rootView, id);
       if (settlementE4 == null) {
         break missingId;
       }
 
       id = R.id.settlement_e5;
-      ImageView settlementE5 = rootView.findViewById(id);
+      ImageView settlementE5 = ViewBindings.findChildViewById(rootView, id);
       if (settlementE5 == null) {
         break missingId;
       }
 
       id = R.id.settlement_f2;
-      ImageView settlementF2 = rootView.findViewById(id);
+      ImageView settlementF2 = ViewBindings.findChildViewById(rootView, id);
       if (settlementF2 == null) {
         break missingId;
       }
 
       id = R.id.settlement_f3;
-      ImageView settlementF3 = rootView.findViewById(id);
+      ImageView settlementF3 = ViewBindings.findChildViewById(rootView, id);
       if (settlementF3 == null) {
         break missingId;
       }
 
       id = R.id.settlement_f4;
-      ImageView settlementF4 = rootView.findViewById(id);
+      ImageView settlementF4 = ViewBindings.findChildViewById(rootView, id);
       if (settlementF4 == null) {
         break missingId;
       }
 
       id = R.id.settlement_f5;
-      ImageView settlementF5 = rootView.findViewById(id);
+      ImageView settlementF5 = ViewBindings.findChildViewById(rootView, id);
       if (settlementF5 == null) {
         break missingId;
       }
 
       id = R.id.settlement_g2;
-      ImageView settlementG2 = rootView.findViewById(id);
+      ImageView settlementG2 = ViewBindings.findChildViewById(rootView, id);
       if (settlementG2 == null) {
         break missingId;
       }
 
       id = R.id.settlement_g3;
-      ImageView settlementG3 = rootView.findViewById(id);
+      ImageView settlementG3 = ViewBindings.findChildViewById(rootView, id);
       if (settlementG3 == null) {
         break missingId;
       }
 
       id = R.id.settlement_g4;
-      ImageView settlementG4 = rootView.findViewById(id);
+      ImageView settlementG4 = ViewBindings.findChildViewById(rootView, id);
       if (settlementG4 == null) {
         break missingId;
       }
 
       id = R.id.settlement_g5;
-      ImageView settlementG5 = rootView.findViewById(id);
+      ImageView settlementG5 = ViewBindings.findChildViewById(rootView, id);
       if (settlementG5 == null) {
         break missingId;
       }
 
       id = R.id.settlement_h1;
-      ImageView settlementH1 = rootView.findViewById(id);
+      ImageView settlementH1 = ViewBindings.findChildViewById(rootView, id);
       if (settlementH1 == null) {
         break missingId;
       }
 
       id = R.id.settlement_h2;
-      ImageView settlementH2 = rootView.findViewById(id);
+      ImageView settlementH2 = ViewBindings.findChildViewById(rootView, id);
       if (settlementH2 == null) {
         break missingId;
       }
 
       id = R.id.settlement_h3;
-      ImageView settlementH3 = rootView.findViewById(id);
+      ImageView settlementH3 = ViewBindings.findChildViewById(rootView, id);
       if (settlementH3 == null) {
         break missingId;
       }
 
       id = R.id.settlement_h4;
-      ImageView settlementH4 = rootView.findViewById(id);
+      ImageView settlementH4 = ViewBindings.findChildViewById(rootView, id);
       if (settlementH4 == null) {
         break missingId;
       }
 
       id = R.id.settlement_h5;
-      ImageView settlementH5 = rootView.findViewById(id);
+      ImageView settlementH5 = ViewBindings.findChildViewById(rootView, id);
       if (settlementH5 == null) {
         break missingId;
       }
 
       id = R.id.settlement_i2;
-      ImageView settlementI2 = rootView.findViewById(id);
+      ImageView settlementI2 = ViewBindings.findChildViewById(rootView, id);
       if (settlementI2 == null) {
         break missingId;
       }
 
       id = R.id.settlement_i3;
-      ImageView settlementI3 = rootView.findViewById(id);
+      ImageView settlementI3 = ViewBindings.findChildViewById(rootView, id);
       if (settlementI3 == null) {
         break missingId;
       }
 
       id = R.id.settlement_i4;
-      ImageView settlementI4 = rootView.findViewById(id);
+      ImageView settlementI4 = ViewBindings.findChildViewById(rootView, id);
       if (settlementI4 == null) {
         break missingId;
       }
 
       id = R.id.settlement_j1;
-      ImageView settlementJ1 = rootView.findViewById(id);
+      ImageView settlementJ1 = ViewBindings.findChildViewById(rootView, id);
       if (settlementJ1 == null) {
         break missingId;
       }
 
       id = R.id.settlement_j2;
-      ImageView settlementJ2 = rootView.findViewById(id);
+      ImageView settlementJ2 = ViewBindings.findChildViewById(rootView, id);
       if (settlementJ2 == null) {
         break missingId;
       }
 
       id = R.id.settlement_j3;
-      ImageView settlementJ3 = rootView.findViewById(id);
+      ImageView settlementJ3 = ViewBindings.findChildViewById(rootView, id);
       if (settlementJ3 == null) {
         break missingId;
       }
 
       id = R.id.settlement_j4;
-      ImageView settlementJ4 = rootView.findViewById(id);
+      ImageView settlementJ4 = ViewBindings.findChildViewById(rootView, id);
       if (settlementJ4 == null) {
         break missingId;
       }
 
       id = R.id.settlement_k2;
-      ImageView settlementK2 = rootView.findViewById(id);
+      ImageView settlementK2 = ViewBindings.findChildViewById(rootView, id);
       if (settlementK2 == null) {
         break missingId;
       }
 
       id = R.id.settlement_k3;
-      ImageView settlementK3 = rootView.findViewById(id);
+      ImageView settlementK3 = ViewBindings.findChildViewById(rootView, id);
       if (settlementK3 == null) {
         break missingId;
       }
 
       id = R.id.sheep_card;
-      ConstraintLayout sheepCard = rootView.findViewById(id);
+      ConstraintLayout sheepCard = ViewBindings.findChildViewById(rootView, id);
       if (sheepCard == null) {
         break missingId;
       }
 
-      id = R.id.street1;
-      ImageView street1 = rootView.findViewById(id);
-      if (street1 == null) {
+      id = R.id.street10a;
+      ImageView street10a = ViewBindings.findChildViewById(rootView, id);
+      if (street10a == null) {
         break missingId;
       }
 
-      id = R.id.street10;
-      ImageView street10 = rootView.findViewById(id);
-      if (street10 == null) {
+      id = R.id.street10b;
+      ImageView street10b = ViewBindings.findChildViewById(rootView, id);
+      if (street10b == null) {
         break missingId;
       }
 
-      id = R.id.street10_2;
-      ImageView street102 = rootView.findViewById(id);
-      if (street102 == null) {
+      id = R.id.street10c;
+      ImageView street10c = ViewBindings.findChildViewById(rootView, id);
+      if (street10c == null) {
         break missingId;
       }
 
-      id = R.id.street10_3;
-      ImageView street103 = rootView.findViewById(id);
-      if (street103 == null) {
+      id = R.id.street10d;
+      ImageView street10d = ViewBindings.findChildViewById(rootView, id);
+      if (street10d == null) {
         break missingId;
       }
 
-      id = R.id.street10_4;
-      ImageView street104 = rootView.findViewById(id);
-      if (street104 == null) {
+      id = R.id.street11a;
+      ImageView street11a = ViewBindings.findChildViewById(rootView, id);
+      if (street11a == null) {
         break missingId;
       }
 
-      id = R.id.street11;
-      ImageView street11 = rootView.findViewById(id);
-      if (street11 == null) {
+      id = R.id.street11b;
+      ImageView street11b = ViewBindings.findChildViewById(rootView, id);
+      if (street11b == null) {
         break missingId;
       }
 
-      id = R.id.street11_2;
-      ImageView street112 = rootView.findViewById(id);
-      if (street112 == null) {
+      id = R.id.street11c;
+      ImageView street11c = ViewBindings.findChildViewById(rootView, id);
+      if (street11c == null) {
         break missingId;
       }
 
-      id = R.id.street11_3;
-      ImageView street113 = rootView.findViewById(id);
-      if (street113 == null) {
+      id = R.id.street12a;
+      ImageView street12a = ViewBindings.findChildViewById(rootView, id);
+      if (street12a == null) {
         break missingId;
       }
 
-      id = R.id.street1_2;
-      ImageView street12 = rootView.findViewById(id);
-      if (street12 == null) {
+      id = R.id.street12b;
+      ImageView street12b = ViewBindings.findChildViewById(rootView, id);
+      if (street12b == null) {
         break missingId;
       }
 
-      id = R.id.street12;
-      ImageView street121 = rootView.findViewById(id);
-      if (street121 == null) {
+      id = R.id.street12c;
+      ImageView street12c = ViewBindings.findChildViewById(rootView, id);
+      if (street12c == null) {
         break missingId;
       }
 
-      id = R.id.street12_2;
-      ImageView street122 = rootView.findViewById(id);
-      if (street122 == null) {
+      id = R.id.street13a;
+      ImageView street13a = ViewBindings.findChildViewById(rootView, id);
+      if (street13a == null) {
         break missingId;
       }
 
-      id = R.id.street12_3;
-      ImageView street123 = rootView.findViewById(id);
-      if (street123 == null) {
+      id = R.id.street13b;
+      ImageView street13b = ViewBindings.findChildViewById(rootView, id);
+      if (street13b == null) {
         break missingId;
       }
 
-      id = R.id.street1_3;
-      ImageView street13 = rootView.findViewById(id);
-      if (street13 == null) {
+      id = R.id.street13c;
+      ImageView street13c = ViewBindings.findChildViewById(rootView, id);
+      if (street13c == null) {
         break missingId;
       }
 
-      id = R.id.street13;
-      ImageView street131 = rootView.findViewById(id);
-      if (street131 == null) {
+      id = R.id.street13d;
+      ImageView street13d = ViewBindings.findChildViewById(rootView, id);
+      if (street13d == null) {
         break missingId;
       }
 
-      id = R.id.street13_2;
-      ImageView street132 = rootView.findViewById(id);
-      if (street132 == null) {
+      id = R.id.street14a;
+      ImageView street14a = ViewBindings.findChildViewById(rootView, id);
+      if (street14a == null) {
         break missingId;
       }
 
-      id = R.id.street13_3;
-      ImageView street133 = rootView.findViewById(id);
-      if (street133 == null) {
+      id = R.id.street14b;
+      ImageView street14b = ViewBindings.findChildViewById(rootView, id);
+      if (street14b == null) {
         break missingId;
       }
 
-      id = R.id.street13_4;
-      ImageView street134 = rootView.findViewById(id);
-      if (street134 == null) {
+      id = R.id.street14c;
+      ImageView street14c = ViewBindings.findChildViewById(rootView, id);
+      if (street14c == null) {
         break missingId;
       }
 
-      id = R.id.street1_4;
-      ImageView street14 = rootView.findViewById(id);
-      if (street14 == null) {
+      id = R.id.street14d;
+      ImageView street14d = ViewBindings.findChildViewById(rootView, id);
+      if (street14d == null) {
         break missingId;
       }
 
-      id = R.id.street14;
-      ImageView street141 = rootView.findViewById(id);
-      if (street141 == null) {
+      id = R.id.street14e;
+      ImageView street14e = ViewBindings.findChildViewById(rootView, id);
+      if (street14e == null) {
         break missingId;
       }
 
-      id = R.id.street14_2;
-      ImageView street142 = rootView.findViewById(id);
-      if (street142 == null) {
+      id = R.id.street15a;
+      ImageView street15a = ViewBindings.findChildViewById(rootView, id);
+      if (street15a == null) {
         break missingId;
       }
 
-      id = R.id.street14_3;
-      ImageView street143 = rootView.findViewById(id);
-      if (street143 == null) {
+      id = R.id.street15b;
+      ImageView street15b = ViewBindings.findChildViewById(rootView, id);
+      if (street15b == null) {
         break missingId;
       }
 
-      id = R.id.street14_4;
-      ImageView street144 = rootView.findViewById(id);
-      if (street144 == null) {
+      id = R.id.street15c;
+      ImageView street15c = ViewBindings.findChildViewById(rootView, id);
+      if (street15c == null) {
         break missingId;
       }
 
-      id = R.id.street14_5;
-      ImageView street145 = rootView.findViewById(id);
-      if (street145 == null) {
+      id = R.id.street15d;
+      ImageView street15d = ViewBindings.findChildViewById(rootView, id);
+      if (street15d == null) {
         break missingId;
       }
 
-      id = R.id.street15;
-      ImageView street15 = rootView.findViewById(id);
-      if (street15 == null) {
+      id = R.id.street15e;
+      ImageView street15e = ViewBindings.findChildViewById(rootView, id);
+      if (street15e == null) {
         break missingId;
       }
 
-      id = R.id.street15_2;
-      ImageView street152 = rootView.findViewById(id);
-      if (street152 == null) {
+      id = R.id.street16a;
+      ImageView street16a = ViewBindings.findChildViewById(rootView, id);
+      if (street16a == null) {
         break missingId;
       }
 
-      id = R.id.street15_3;
-      ImageView street153 = rootView.findViewById(id);
-      if (street153 == null) {
+      id = R.id.street16b;
+      ImageView street16b = ViewBindings.findChildViewById(rootView, id);
+      if (street16b == null) {
         break missingId;
       }
 
-      id = R.id.street15_4;
-      ImageView street154 = rootView.findViewById(id);
-      if (street154 == null) {
+      id = R.id.street16c;
+      ImageView street16c = ViewBindings.findChildViewById(rootView, id);
+      if (street16c == null) {
         break missingId;
       }
 
-      id = R.id.street15_5;
-      ImageView street155 = rootView.findViewById(id);
-      if (street155 == null) {
+      id = R.id.street16d;
+      ImageView street16d = ViewBindings.findChildViewById(rootView, id);
+      if (street16d == null) {
         break missingId;
       }
 
-      id = R.id.street16;
-      ImageView street16 = rootView.findViewById(id);
-      if (street16 == null) {
+      id = R.id.street17a;
+      ImageView street17a = ViewBindings.findChildViewById(rootView, id);
+      if (street17a == null) {
         break missingId;
       }
 
-      id = R.id.street16_2;
-      ImageView street162 = rootView.findViewById(id);
-      if (street162 == null) {
+      id = R.id.street17b;
+      ImageView street17b = ViewBindings.findChildViewById(rootView, id);
+      if (street17b == null) {
         break missingId;
       }
 
-      id = R.id.street16_3;
-      ImageView street163 = rootView.findViewById(id);
-      if (street163 == null) {
+      id = R.id.street17c;
+      ImageView street17c = ViewBindings.findChildViewById(rootView, id);
+      if (street17c == null) {
         break missingId;
       }
 
-      id = R.id.street16_4;
-      ImageView street164 = rootView.findViewById(id);
-      if (street164 == null) {
+      id = R.id.street1a;
+      ImageView street1a = ViewBindings.findChildViewById(rootView, id);
+      if (street1a == null) {
         break missingId;
       }
 
-      id = R.id.street17;
-      ImageView street17 = rootView.findViewById(id);
-      if (street17 == null) {
+      id = R.id.street1b;
+      ImageView street1b = ViewBindings.findChildViewById(rootView, id);
+      if (street1b == null) {
         break missingId;
       }
 
-      id = R.id.street17_2;
-      ImageView street172 = rootView.findViewById(id);
-      if (street172 == null) {
+      id = R.id.street1c;
+      ImageView street1c = ViewBindings.findChildViewById(rootView, id);
+      if (street1c == null) {
         break missingId;
       }
 
-      id = R.id.street17_3;
-      ImageView street173 = rootView.findViewById(id);
-      if (street173 == null) {
+      id = R.id.street1d;
+      ImageView street1d = ViewBindings.findChildViewById(rootView, id);
+      if (street1d == null) {
         break missingId;
       }
 
-      id = R.id.street2;
-      ImageView street2 = rootView.findViewById(id);
-      if (street2 == null) {
+      id = R.id.street2a;
+      ImageView street2a = ViewBindings.findChildViewById(rootView, id);
+      if (street2a == null) {
         break missingId;
       }
 
-      id = R.id.street2_2;
-      ImageView street22 = rootView.findViewById(id);
-      if (street22 == null) {
+      id = R.id.street2b;
+      ImageView street2b = ViewBindings.findChildViewById(rootView, id);
+      if (street2b == null) {
         break missingId;
       }
 
-      id = R.id.street2_3;
-      ImageView street23 = rootView.findViewById(id);
-      if (street23 == null) {
+      id = R.id.street2c;
+      ImageView street2c = ViewBindings.findChildViewById(rootView, id);
+      if (street2c == null) {
         break missingId;
       }
 
-      id = R.id.street2_4;
-      ImageView street24 = rootView.findViewById(id);
-      if (street24 == null) {
+      id = R.id.street2d;
+      ImageView street2d = ViewBindings.findChildViewById(rootView, id);
+      if (street2d == null) {
         break missingId;
       }
 
-      id = R.id.street2_5;
-      ImageView street25 = rootView.findViewById(id);
-      if (street25 == null) {
+      id = R.id.street2e;
+      ImageView street2e = ViewBindings.findChildViewById(rootView, id);
+      if (street2e == null) {
         break missingId;
       }
 
-      id = R.id.street3;
-      ImageView street3 = rootView.findViewById(id);
-      if (street3 == null) {
+      id = R.id.street3a;
+      ImageView street3a = ViewBindings.findChildViewById(rootView, id);
+      if (street3a == null) {
         break missingId;
       }
 
-      id = R.id.street3_2;
-      ImageView street32 = rootView.findViewById(id);
-      if (street32 == null) {
+      id = R.id.street3b;
+      ImageView street3b = ViewBindings.findChildViewById(rootView, id);
+      if (street3b == null) {
         break missingId;
       }
 
-      id = R.id.street3_3;
-      ImageView street33 = rootView.findViewById(id);
-      if (street33 == null) {
+      id = R.id.street3c;
+      ImageView street3c = ViewBindings.findChildViewById(rootView, id);
+      if (street3c == null) {
         break missingId;
       }
 
-      id = R.id.street3_4;
-      ImageView street34 = rootView.findViewById(id);
-      if (street34 == null) {
+      id = R.id.street3d;
+      ImageView street3d = ViewBindings.findChildViewById(rootView, id);
+      if (street3d == null) {
         break missingId;
       }
 
-      id = R.id.street3_5;
-      ImageView street35 = rootView.findViewById(id);
-      if (street35 == null) {
+      id = R.id.street3e;
+      ImageView street3e = ViewBindings.findChildViewById(rootView, id);
+      if (street3e == null) {
         break missingId;
       }
 
-      id = R.id.street3_6;
-      ImageView street36 = rootView.findViewById(id);
-      if (street36 == null) {
+      id = R.id.street3f;
+      ImageView street3f = ViewBindings.findChildViewById(rootView, id);
+      if (street3f == null) {
         break missingId;
       }
 
-      id = R.id.street4;
-      ImageView street4 = rootView.findViewById(id);
-      if (street4 == null) {
+      id = R.id.street4a;
+      ImageView street4a = ViewBindings.findChildViewById(rootView, id);
+      if (street4a == null) {
         break missingId;
       }
 
-      id = R.id.street4_2;
-      ImageView street42 = rootView.findViewById(id);
-      if (street42 == null) {
+      id = R.id.street4b;
+      ImageView street4b = ViewBindings.findChildViewById(rootView, id);
+      if (street4b == null) {
         break missingId;
       }
 
-      id = R.id.street4_3;
-      ImageView street43 = rootView.findViewById(id);
-      if (street43 == null) {
+      id = R.id.street4c;
+      ImageView street4c = ViewBindings.findChildViewById(rootView, id);
+      if (street4c == null) {
         break missingId;
       }
 
-      id = R.id.street4_4;
-      ImageView street44 = rootView.findViewById(id);
-      if (street44 == null) {
+      id = R.id.street4d;
+      ImageView street4d = ViewBindings.findChildViewById(rootView, id);
+      if (street4d == null) {
         break missingId;
       }
 
-      id = R.id.street4_5;
-      ImageView street45 = rootView.findViewById(id);
-      if (street45 == null) {
+      id = R.id.street4e;
+      ImageView street4e = ViewBindings.findChildViewById(rootView, id);
+      if (street4e == null) {
         break missingId;
       }
 
-      id = R.id.street5;
-      ImageView street5 = rootView.findViewById(id);
-      if (street5 == null) {
+      id = R.id.street5a;
+      ImageView street5a = ViewBindings.findChildViewById(rootView, id);
+      if (street5a == null) {
         break missingId;
       }
 
-      id = R.id.street5_2;
-      ImageView street52 = rootView.findViewById(id);
-      if (street52 == null) {
+      id = R.id.street5b;
+      ImageView street5b = ViewBindings.findChildViewById(rootView, id);
+      if (street5b == null) {
         break missingId;
       }
 
-      id = R.id.street5_3;
-      ImageView street53 = rootView.findViewById(id);
-      if (street53 == null) {
+      id = R.id.street5c;
+      ImageView street5c = ViewBindings.findChildViewById(rootView, id);
+      if (street5c == null) {
         break missingId;
       }
 
-      id = R.id.street5_4;
-      ImageView street54 = rootView.findViewById(id);
-      if (street54 == null) {
+      id = R.id.street5d;
+      ImageView street5d = ViewBindings.findChildViewById(rootView, id);
+      if (street5d == null) {
         break missingId;
       }
 
-      id = R.id.street6;
-      ImageView street6 = rootView.findViewById(id);
-      if (street6 == null) {
+      id = R.id.street6a;
+      ImageView street6a = ViewBindings.findChildViewById(rootView, id);
+      if (street6a == null) {
         break missingId;
       }
 
-      id = R.id.street6_2;
-      ImageView street62 = rootView.findViewById(id);
-      if (street62 == null) {
+      id = R.id.street6b;
+      ImageView street6b = ViewBindings.findChildViewById(rootView, id);
+      if (street6b == null) {
         break missingId;
       }
 
-      id = R.id.street6_3;
-      ImageView street63 = rootView.findViewById(id);
-      if (street63 == null) {
+      id = R.id.street6c;
+      ImageView street6c = ViewBindings.findChildViewById(rootView, id);
+      if (street6c == null) {
         break missingId;
       }
 
-      id = R.id.street7;
-      ImageView street7 = rootView.findViewById(id);
-      if (street7 == null) {
+      id = R.id.street7a;
+      ImageView street7a = ViewBindings.findChildViewById(rootView, id);
+      if (street7a == null) {
         break missingId;
       }
 
-      id = R.id.street7_2;
-      ImageView street72 = rootView.findViewById(id);
-      if (street72 == null) {
+      id = R.id.street7b;
+      ImageView street7b = ViewBindings.findChildViewById(rootView, id);
+      if (street7b == null) {
         break missingId;
       }
 
-      id = R.id.street7_3;
-      ImageView street73 = rootView.findViewById(id);
-      if (street73 == null) {
+      id = R.id.street7c;
+      ImageView street7c = ViewBindings.findChildViewById(rootView, id);
+      if (street7c == null) {
         break missingId;
       }
 
-      id = R.id.street7_4;
-      ImageView street74 = rootView.findViewById(id);
-      if (street74 == null) {
+      id = R.id.street7d;
+      ImageView street7d = ViewBindings.findChildViewById(rootView, id);
+      if (street7d == null) {
         break missingId;
       }
 
-      id = R.id.street8;
-      ImageView street8 = rootView.findViewById(id);
-      if (street8 == null) {
+      id = R.id.street8a;
+      ImageView street8a = ViewBindings.findChildViewById(rootView, id);
+      if (street8a == null) {
         break missingId;
       }
 
-      id = R.id.street8_2;
-      ImageView street82 = rootView.findViewById(id);
-      if (street82 == null) {
+      id = R.id.street8b;
+      ImageView street8b = ViewBindings.findChildViewById(rootView, id);
+      if (street8b == null) {
         break missingId;
       }
 
-      id = R.id.street8_3;
-      ImageView street83 = rootView.findViewById(id);
-      if (street83 == null) {
+      id = R.id.street8c;
+      ImageView street8c = ViewBindings.findChildViewById(rootView, id);
+      if (street8c == null) {
         break missingId;
       }
 
-      id = R.id.street8_4;
-      ImageView street84 = rootView.findViewById(id);
-      if (street84 == null) {
+      id = R.id.street8d;
+      ImageView street8d = ViewBindings.findChildViewById(rootView, id);
+      if (street8d == null) {
         break missingId;
       }
 
-      id = R.id.street8_5;
-      ImageView street85 = rootView.findViewById(id);
-      if (street85 == null) {
+      id = R.id.street8e;
+      ImageView street8e = ViewBindings.findChildViewById(rootView, id);
+      if (street8e == null) {
         break missingId;
       }
 
-      id = R.id.street9;
-      ImageView street9 = rootView.findViewById(id);
-      if (street9 == null) {
+      id = R.id.street9a;
+      ImageView street9a = ViewBindings.findChildViewById(rootView, id);
+      if (street9a == null) {
         break missingId;
       }
 
-      id = R.id.street9_2;
-      ImageView street92 = rootView.findViewById(id);
-      if (street92 == null) {
+      id = R.id.street9b;
+      ImageView street9b = ViewBindings.findChildViewById(rootView, id);
+      if (street9b == null) {
         break missingId;
       }
 
-      id = R.id.street9_3;
-      ImageView street93 = rootView.findViewById(id);
-      if (street93 == null) {
+      id = R.id.street9c;
+      ImageView street9c = ViewBindings.findChildViewById(rootView, id);
+      if (street9c == null) {
         break missingId;
       }
 
-      id = R.id.street9_4;
-      ImageView street94 = rootView.findViewById(id);
-      if (street94 == null) {
+      id = R.id.street9d;
+      ImageView street9d = ViewBindings.findChildViewById(rootView, id);
+      if (street9d == null) {
         break missingId;
       }
 
-      id = R.id.street9_5;
-      ImageView street95 = rootView.findViewById(id);
-      if (street95 == null) {
+      id = R.id.street9e;
+      ImageView street9e = ViewBindings.findChildViewById(rootView, id);
+      if (street9e == null) {
         break missingId;
       }
 
-      id = R.id.test_button;
-      Button testButton = rootView.findViewById(id);
-      if (testButton == null) {
+      id = R.id.tab_indicator;
+      TabLayout tabIndicator = ViewBindings.findChildViewById(rootView, id);
+      if (tabIndicator == null) {
         break missingId;
       }
 
       id = R.id.tile1;
-      ImageView tile1 = rootView.findViewById(id);
+      ImageView tile1 = ViewBindings.findChildViewById(rootView, id);
       if (tile1 == null) {
         break missingId;
       }
 
       id = R.id.tile10;
-      ImageView tile10 = rootView.findViewById(id);
+      ImageView tile10 = ViewBindings.findChildViewById(rootView, id);
       if (tile10 == null) {
         break missingId;
       }
 
       id = R.id.tile10_drop_area;
-      ConstraintLayout tile10DropArea = rootView.findViewById(id);
+      ConstraintLayout tile10DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile10DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile10Number;
-      ImageView tile10Number = rootView.findViewById(id);
+      ImageView tile10Number = ViewBindings.findChildViewById(rootView, id);
       if (tile10Number == null) {
         break missingId;
       }
 
       id = R.id.tile10NumberInput;
-      EditText tile10NumberInput = rootView.findViewById(id);
+      EditText tile10NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile10NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile11;
-      ImageView tile11 = rootView.findViewById(id);
+      ImageView tile11 = ViewBindings.findChildViewById(rootView, id);
       if (tile11 == null) {
         break missingId;
       }
 
       id = R.id.tile11_drop_area;
-      ConstraintLayout tile11DropArea = rootView.findViewById(id);
+      ConstraintLayout tile11DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile11DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile11Number;
-      ImageView tile11Number = rootView.findViewById(id);
+      ImageView tile11Number = ViewBindings.findChildViewById(rootView, id);
       if (tile11Number == null) {
         break missingId;
       }
 
       id = R.id.tile11NumberInput;
-      EditText tile11NumberInput = rootView.findViewById(id);
+      EditText tile11NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile11NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile12;
-      ImageView tile12 = rootView.findViewById(id);
+      ImageView tile12 = ViewBindings.findChildViewById(rootView, id);
       if (tile12 == null) {
         break missingId;
       }
 
       id = R.id.tile12_drop_area;
-      ConstraintLayout tile12DropArea = rootView.findViewById(id);
+      ConstraintLayout tile12DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile12DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile12Number;
-      ImageView tile12Number = rootView.findViewById(id);
+      ImageView tile12Number = ViewBindings.findChildViewById(rootView, id);
       if (tile12Number == null) {
         break missingId;
       }
 
       id = R.id.tile12NumberInput;
-      EditText tile12NumberInput = rootView.findViewById(id);
+      EditText tile12NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile12NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile13;
-      ImageView tile13 = rootView.findViewById(id);
+      ImageView tile13 = ViewBindings.findChildViewById(rootView, id);
       if (tile13 == null) {
         break missingId;
       }
 
       id = R.id.tile13_drop_area;
-      ConstraintLayout tile13DropArea = rootView.findViewById(id);
+      ConstraintLayout tile13DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile13DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile13Number;
-      ImageView tile13Number = rootView.findViewById(id);
+      ImageView tile13Number = ViewBindings.findChildViewById(rootView, id);
       if (tile13Number == null) {
         break missingId;
       }
 
       id = R.id.tile13NumberInput;
-      EditText tile13NumberInput = rootView.findViewById(id);
+      EditText tile13NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile13NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile14;
-      ImageView tile14 = rootView.findViewById(id);
+      ImageView tile14 = ViewBindings.findChildViewById(rootView, id);
       if (tile14 == null) {
         break missingId;
       }
 
       id = R.id.tile14_drop_area;
-      ConstraintLayout tile14DropArea = rootView.findViewById(id);
+      ConstraintLayout tile14DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile14DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile14Number;
-      ImageView tile14Number = rootView.findViewById(id);
+      ImageView tile14Number = ViewBindings.findChildViewById(rootView, id);
       if (tile14Number == null) {
         break missingId;
       }
 
       id = R.id.tile14NumberInput;
-      EditText tile14NumberInput = rootView.findViewById(id);
+      EditText tile14NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile14NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile15;
-      ImageView tile15 = rootView.findViewById(id);
+      ImageView tile15 = ViewBindings.findChildViewById(rootView, id);
       if (tile15 == null) {
         break missingId;
       }
 
       id = R.id.tile15_drop_area;
-      ConstraintLayout tile15DropArea = rootView.findViewById(id);
+      ConstraintLayout tile15DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile15DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile15Number;
-      ImageView tile15Number = rootView.findViewById(id);
+      ImageView tile15Number = ViewBindings.findChildViewById(rootView, id);
       if (tile15Number == null) {
         break missingId;
       }
 
       id = R.id.tile15NumberInput;
-      EditText tile15NumberInput = rootView.findViewById(id);
+      EditText tile15NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile15NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile16;
-      ImageView tile16 = rootView.findViewById(id);
+      ImageView tile16 = ViewBindings.findChildViewById(rootView, id);
       if (tile16 == null) {
         break missingId;
       }
 
       id = R.id.tile16_drop_area;
-      ConstraintLayout tile16DropArea = rootView.findViewById(id);
+      ConstraintLayout tile16DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile16DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile16Number;
-      ImageView tile16Number = rootView.findViewById(id);
+      ImageView tile16Number = ViewBindings.findChildViewById(rootView, id);
       if (tile16Number == null) {
         break missingId;
       }
 
       id = R.id.tile16NumberInput;
-      EditText tile16NumberInput = rootView.findViewById(id);
+      EditText tile16NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile16NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile17;
-      ImageView tile17 = rootView.findViewById(id);
+      ImageView tile17 = ViewBindings.findChildViewById(rootView, id);
       if (tile17 == null) {
         break missingId;
       }
 
       id = R.id.tile17_drop_area;
-      ConstraintLayout tile17DropArea = rootView.findViewById(id);
+      ConstraintLayout tile17DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile17DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile17Number;
-      ImageView tile17Number = rootView.findViewById(id);
+      ImageView tile17Number = ViewBindings.findChildViewById(rootView, id);
       if (tile17Number == null) {
         break missingId;
       }
 
       id = R.id.tile17NumberInput;
-      EditText tile17NumberInput = rootView.findViewById(id);
+      EditText tile17NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile17NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile18;
-      ImageView tile18 = rootView.findViewById(id);
+      ImageView tile18 = ViewBindings.findChildViewById(rootView, id);
       if (tile18 == null) {
         break missingId;
       }
 
       id = R.id.tile18_drop_area;
-      ConstraintLayout tile18DropArea = rootView.findViewById(id);
+      ConstraintLayout tile18DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile18DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile18Number;
-      ImageView tile18Number = rootView.findViewById(id);
+      ImageView tile18Number = ViewBindings.findChildViewById(rootView, id);
       if (tile18Number == null) {
         break missingId;
       }
 
       id = R.id.tile18NumberInput;
-      EditText tile18NumberInput = rootView.findViewById(id);
+      EditText tile18NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile18NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile19;
-      ImageView tile19 = rootView.findViewById(id);
+      ImageView tile19 = ViewBindings.findChildViewById(rootView, id);
       if (tile19 == null) {
         break missingId;
       }
 
       id = R.id.tile19_drop_area;
-      ConstraintLayout tile19DropArea = rootView.findViewById(id);
+      ConstraintLayout tile19DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile19DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile19Number;
-      ImageView tile19Number = rootView.findViewById(id);
+      ImageView tile19Number = ViewBindings.findChildViewById(rootView, id);
       if (tile19Number == null) {
         break missingId;
       }
 
       id = R.id.tile19NumberInput;
-      EditText tile19NumberInput = rootView.findViewById(id);
+      EditText tile19NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile19NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile1_drop_area;
-      ConstraintLayout tile1DropArea = rootView.findViewById(id);
+      ConstraintLayout tile1DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile1DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile1Number;
-      ImageView tile1Number = rootView.findViewById(id);
+      ImageView tile1Number = ViewBindings.findChildViewById(rootView, id);
       if (tile1Number == null) {
         break missingId;
       }
 
       id = R.id.tile1NumberInput;
-      EditText tile1NumberInput = rootView.findViewById(id);
+      EditText tile1NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile1NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile2;
-      ImageView tile2 = rootView.findViewById(id);
+      ImageView tile2 = ViewBindings.findChildViewById(rootView, id);
       if (tile2 == null) {
         break missingId;
       }
 
       id = R.id.tile2_drop_area;
-      ConstraintLayout tile2DropArea = rootView.findViewById(id);
+      ConstraintLayout tile2DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile2DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile2Number;
-      ImageView tile2Number = rootView.findViewById(id);
+      ImageView tile2Number = ViewBindings.findChildViewById(rootView, id);
       if (tile2Number == null) {
         break missingId;
       }
 
       id = R.id.tile2NumberInput;
-      EditText tile2NumberInput = rootView.findViewById(id);
+      EditText tile2NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile2NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile3;
-      ImageView tile3 = rootView.findViewById(id);
+      ImageView tile3 = ViewBindings.findChildViewById(rootView, id);
       if (tile3 == null) {
         break missingId;
       }
 
       id = R.id.tile3_drop_area;
-      ConstraintLayout tile3DropArea = rootView.findViewById(id);
+      ConstraintLayout tile3DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile3DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile3Number;
-      ImageView tile3Number = rootView.findViewById(id);
+      ImageView tile3Number = ViewBindings.findChildViewById(rootView, id);
       if (tile3Number == null) {
         break missingId;
       }
 
       id = R.id.tile3NumberInput;
-      EditText tile3NumberInput = rootView.findViewById(id);
+      EditText tile3NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile3NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile4;
-      ImageView tile4 = rootView.findViewById(id);
+      ImageView tile4 = ViewBindings.findChildViewById(rootView, id);
       if (tile4 == null) {
         break missingId;
       }
 
       id = R.id.tile4_drop_area;
-      ConstraintLayout tile4DropArea = rootView.findViewById(id);
+      ConstraintLayout tile4DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile4DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile4Number;
-      ImageView tile4Number = rootView.findViewById(id);
+      ImageView tile4Number = ViewBindings.findChildViewById(rootView, id);
       if (tile4Number == null) {
         break missingId;
       }
 
       id = R.id.tile4NumberInput;
-      EditText tile4NumberInput = rootView.findViewById(id);
+      EditText tile4NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile4NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile5;
-      ImageView tile5 = rootView.findViewById(id);
+      ImageView tile5 = ViewBindings.findChildViewById(rootView, id);
       if (tile5 == null) {
         break missingId;
       }
 
       id = R.id.tile5_drop_area;
-      ConstraintLayout tile5DropArea = rootView.findViewById(id);
+      ConstraintLayout tile5DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile5DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile5Number;
-      ImageView tile5Number = rootView.findViewById(id);
+      ImageView tile5Number = ViewBindings.findChildViewById(rootView, id);
       if (tile5Number == null) {
         break missingId;
       }
 
       id = R.id.tile5NumberInput;
-      EditText tile5NumberInput = rootView.findViewById(id);
+      EditText tile5NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile5NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile6;
-      ImageView tile6 = rootView.findViewById(id);
+      ImageView tile6 = ViewBindings.findChildViewById(rootView, id);
       if (tile6 == null) {
         break missingId;
       }
 
       id = R.id.tile6_drop_area;
-      ConstraintLayout tile6DropArea = rootView.findViewById(id);
+      ConstraintLayout tile6DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile6DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile6Number;
-      ImageView tile6Number = rootView.findViewById(id);
+      ImageView tile6Number = ViewBindings.findChildViewById(rootView, id);
       if (tile6Number == null) {
         break missingId;
       }
 
       id = R.id.tile6NumberInput;
-      EditText tile6NumberInput = rootView.findViewById(id);
+      EditText tile6NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile6NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile7;
-      ImageView tile7 = rootView.findViewById(id);
+      ImageView tile7 = ViewBindings.findChildViewById(rootView, id);
       if (tile7 == null) {
         break missingId;
       }
 
       id = R.id.tile7_drop_area;
-      ConstraintLayout tile7DropArea = rootView.findViewById(id);
+      ConstraintLayout tile7DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile7DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile7Number;
-      ImageView tile7Number = rootView.findViewById(id);
+      ImageView tile7Number = ViewBindings.findChildViewById(rootView, id);
       if (tile7Number == null) {
         break missingId;
       }
 
       id = R.id.tile7NumberInput;
-      EditText tile7NumberInput = rootView.findViewById(id);
+      EditText tile7NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile7NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile8;
-      ImageView tile8 = rootView.findViewById(id);
+      ImageView tile8 = ViewBindings.findChildViewById(rootView, id);
       if (tile8 == null) {
         break missingId;
       }
 
       id = R.id.tile8_drop_area;
-      ConstraintLayout tile8DropArea = rootView.findViewById(id);
+      ConstraintLayout tile8DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile8DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile8Number;
-      ImageView tile8Number = rootView.findViewById(id);
+      ImageView tile8Number = ViewBindings.findChildViewById(rootView, id);
       if (tile8Number == null) {
         break missingId;
       }
 
       id = R.id.tile8NumberInput;
-      EditText tile8NumberInput = rootView.findViewById(id);
+      EditText tile8NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile8NumberInput == null) {
         break missingId;
       }
 
       id = R.id.tile9;
-      ImageView tile9 = rootView.findViewById(id);
+      ImageView tile9 = ViewBindings.findChildViewById(rootView, id);
       if (tile9 == null) {
         break missingId;
       }
 
       id = R.id.tile9_drop_area;
-      ConstraintLayout tile9DropArea = rootView.findViewById(id);
+      ConstraintLayout tile9DropArea = ViewBindings.findChildViewById(rootView, id);
       if (tile9DropArea == null) {
         break missingId;
       }
 
       id = R.id.tile9Number;
-      ImageView tile9Number = rootView.findViewById(id);
+      ImageView tile9Number = ViewBindings.findChildViewById(rootView, id);
       if (tile9Number == null) {
         break missingId;
       }
 
       id = R.id.tile9NumberInput;
-      EditText tile9NumberInput = rootView.findViewById(id);
+      EditText tile9NumberInput = ViewBindings.findChildViewById(rootView, id);
       if (tile9NumberInput == null) {
         break missingId;
       }
 
       id = R.id.wool1;
-      ImageView wool1 = rootView.findViewById(id);
+      ImageView wool1 = ViewBindings.findChildViewById(rootView, id);
       if (wool1 == null) {
         break missingId;
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, board, brick1, brickCard, cards,
           clearButton, colorButton, constraintLayout, continueButton, desert, grain1, grainCard,
-          lumber1, lumberCard, ore1, oreCard, portTile1, portTile10, portTile11, portTile12,
+          lumber1, lumberCard, next, ore1, oreCard, portTile1, portTile10, portTile11, portTile12,
           portTile13, portTile14, portTile15, portTile16, portTile17, portTile18, portTile19,
           portTile2, portTile20, portTile21, portTile22, portTile23, portTile24, portTile25,
           portTile26, portTile27, portTile28, portTile29, portTile3, portTile30, portTile4,
-          portTile5, portTile6, portTile7, portTile8, portTile9, seaTile1, seaTile10, seaTile11,
-          seaTile12, seaTile13, seaTile14, seaTile15, seaTile16, seaTile17, seaTile18, seaTile2,
-          seaTile3, seaTile4, seaTile5, seaTile6, seaTile7, seaTile8, seaTile9, settlementB2,
-          settlementB3, settlementC1, settlementC2, settlementC3, settlementC4, settlementD2,
-          settlementD3, settlementD4, settlementE1, settlementE2, settlementE3, settlementE4,
-          settlementE5, settlementF2, settlementF3, settlementF4, settlementF5, settlementG2,
-          settlementG3, settlementG4, settlementG5, settlementH1, settlementH2, settlementH3,
-          settlementH4, settlementH5, settlementI2, settlementI3, settlementI4, settlementJ1,
-          settlementJ2, settlementJ3, settlementJ4, settlementK2, settlementK3, sheepCard, street1,
-          street10, street102, street103, street104, street11, street112, street113, street12,
-          street121, street122, street123, street13, street131, street132, street133, street134,
-          street14, street141, street142, street143, street144, street145, street15, street152,
-          street153, street154, street155, street16, street162, street163, street164, street17,
-          street172, street173, street2, street22, street23, street24, street25, street3, street32,
-          street33, street34, street35, street36, street4, street42, street43, street44, street45,
-          street5, street52, street53, street54, street6, street62, street63, street7, street72,
-          street73, street74, street8, street82, street83, street84, street85, street9, street92,
-          street93, street94, street95, testButton, tile1, tile10, tile10DropArea, tile10Number,
-          tile10NumberInput, tile11, tile11DropArea, tile11Number, tile11NumberInput, tile12,
-          tile12DropArea, tile12Number, tile12NumberInput, tile13, tile13DropArea, tile13Number,
-          tile13NumberInput, tile14, tile14DropArea, tile14Number, tile14NumberInput, tile15,
-          tile15DropArea, tile15Number, tile15NumberInput, tile16, tile16DropArea, tile16Number,
-          tile16NumberInput, tile17, tile17DropArea, tile17Number, tile17NumberInput, tile18,
-          tile18DropArea, tile18Number, tile18NumberInput, tile19, tile19DropArea, tile19Number,
-          tile19NumberInput, tile1DropArea, tile1Number, tile1NumberInput, tile2, tile2DropArea,
-          tile2Number, tile2NumberInput, tile3, tile3DropArea, tile3Number, tile3NumberInput, tile4,
-          tile4DropArea, tile4Number, tile4NumberInput, tile5, tile5DropArea, tile5Number,
-          tile5NumberInput, tile6, tile6DropArea, tile6Number, tile6NumberInput, tile7,
-          tile7DropArea, tile7Number, tile7NumberInput, tile8, tile8DropArea, tile8Number,
-          tile8NumberInput, tile9, tile9DropArea, tile9Number, tile9NumberInput, wool1);
+          portTile5, portTile6, portTile7, portTile8, portTile9, screenPager, seaTile1, seaTile10,
+          seaTile11, seaTile12, seaTile13, seaTile14, seaTile15, seaTile16, seaTile17, seaTile18,
+          seaTile2, seaTile3, seaTile4, seaTile5, seaTile6, seaTile7, seaTile8, seaTile9,
+          settlementB2, settlementB3, settlementC1, settlementC2, settlementC3, settlementC4,
+          settlementD2, settlementD3, settlementD4, settlementE1, settlementE2, settlementE3,
+          settlementE4, settlementE5, settlementF2, settlementF3, settlementF4, settlementF5,
+          settlementG2, settlementG3, settlementG4, settlementG5, settlementH1, settlementH2,
+          settlementH3, settlementH4, settlementH5, settlementI2, settlementI3, settlementI4,
+          settlementJ1, settlementJ2, settlementJ3, settlementJ4, settlementK2, settlementK3,
+          sheepCard, street10a, street10b, street10c, street10d, street11a, street11b, street11c,
+          street12a, street12b, street12c, street13a, street13b, street13c, street13d, street14a,
+          street14b, street14c, street14d, street14e, street15a, street15b, street15c, street15d,
+          street15e, street16a, street16b, street16c, street16d, street17a, street17b, street17c,
+          street1a, street1b, street1c, street1d, street2a, street2b, street2c, street2d, street2e,
+          street3a, street3b, street3c, street3d, street3e, street3f, street4a, street4b, street4c,
+          street4d, street4e, street5a, street5b, street5c, street5d, street6a, street6b, street6c,
+          street7a, street7b, street7c, street7d, street8a, street8b, street8c, street8d, street8e,
+          street9a, street9b, street9c, street9d, street9e, tabIndicator, tile1, tile10,
+          tile10DropArea, tile10Number, tile10NumberInput, tile11, tile11DropArea, tile11Number,
+          tile11NumberInput, tile12, tile12DropArea, tile12Number, tile12NumberInput, tile13,
+          tile13DropArea, tile13Number, tile13NumberInput, tile14, tile14DropArea, tile14Number,
+          tile14NumberInput, tile15, tile15DropArea, tile15Number, tile15NumberInput, tile16,
+          tile16DropArea, tile16Number, tile16NumberInput, tile17, tile17DropArea, tile17Number,
+          tile17NumberInput, tile18, tile18DropArea, tile18Number, tile18NumberInput, tile19,
+          tile19DropArea, tile19Number, tile19NumberInput, tile1DropArea, tile1Number,
+          tile1NumberInput, tile2, tile2DropArea, tile2Number, tile2NumberInput, tile3,
+          tile3DropArea, tile3Number, tile3NumberInput, tile4, tile4DropArea, tile4Number,
+          tile4NumberInput, tile5, tile5DropArea, tile5Number, tile5NumberInput, tile6,
+          tile6DropArea, tile6Number, tile6NumberInput, tile7, tile7DropArea, tile7Number,
+          tile7NumberInput, tile8, tile8DropArea, tile8Number, tile8NumberInput, tile9,
+          tile9DropArea, tile9Number, tile9NumberInput, wool1);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,6 +1,18 @@
 [
     {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\onboardin_screen_layout.xml",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\layout\\onboardin_screen_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_home.xml",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\board.xml",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\layout\\board.xml"
     }
 ]

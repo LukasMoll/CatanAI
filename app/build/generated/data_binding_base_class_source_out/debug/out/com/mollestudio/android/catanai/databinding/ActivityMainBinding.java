@@ -7,11 +7,14 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import androidx.viewpager.widget.ViewPager;
+import com.google.android.material.tabs.TabLayout;
 import com.mollestudio.android.catanai.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -59,6 +62,9 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public final ConstraintLayout lumberCard;
+
+  @NonNull
+  public final TextView next;
 
   @NonNull
   public final ImageView ore1;
@@ -155,6 +161,9 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public final ImageView portTile9;
+
+  @NonNull
+  public final ViewPager screenPager;
 
   @NonNull
   public final ImageView seaTile1;
@@ -538,7 +547,7 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ImageView street9e;
 
   @NonNull
-  public final Button testButton;
+  public final TabLayout tabIndicator;
 
   @NonNull
   public final ImageView tile1;
@@ -776,8 +785,8 @@ public final class ActivityMainBinding implements ViewBinding {
       @NonNull Button clearButton, @NonNull ImageView colorButton,
       @NonNull ConstraintLayout constraintLayout, @NonNull Button continueButton,
       @NonNull ImageView desert, @NonNull ImageView grain1, @NonNull ConstraintLayout grainCard,
-      @NonNull ImageView lumber1, @NonNull ConstraintLayout lumberCard, @NonNull ImageView ore1,
-      @NonNull ConstraintLayout oreCard, @NonNull ImageView portTile1,
+      @NonNull ImageView lumber1, @NonNull ConstraintLayout lumberCard, @NonNull TextView next,
+      @NonNull ImageView ore1, @NonNull ConstraintLayout oreCard, @NonNull ImageView portTile1,
       @NonNull ImageView portTile10, @NonNull ImageView portTile11, @NonNull ImageView portTile12,
       @NonNull ImageView portTile13, @NonNull ImageView portTile14, @NonNull ImageView portTile15,
       @NonNull ImageView portTile16, @NonNull ImageView portTile17, @NonNull ImageView portTile18,
@@ -787,77 +796,78 @@ public final class ActivityMainBinding implements ViewBinding {
       @NonNull ImageView portTile27, @NonNull ImageView portTile28, @NonNull ImageView portTile29,
       @NonNull ImageView portTile3, @NonNull ImageView portTile30, @NonNull ImageView portTile4,
       @NonNull ImageView portTile5, @NonNull ImageView portTile6, @NonNull ImageView portTile7,
-      @NonNull ImageView portTile8, @NonNull ImageView portTile9, @NonNull ImageView seaTile1,
-      @NonNull ImageView seaTile10, @NonNull ImageView seaTile11, @NonNull ImageView seaTile12,
-      @NonNull ImageView seaTile13, @NonNull ImageView seaTile14, @NonNull ImageView seaTile15,
-      @NonNull ImageView seaTile16, @NonNull ImageView seaTile17, @NonNull ImageView seaTile18,
-      @NonNull ImageView seaTile2, @NonNull ImageView seaTile3, @NonNull ImageView seaTile4,
-      @NonNull ImageView seaTile5, @NonNull ImageView seaTile6, @NonNull ImageView seaTile7,
-      @NonNull ImageView seaTile8, @NonNull ImageView seaTile9, @NonNull ImageView settlementB2,
-      @NonNull ImageView settlementB3, @NonNull ImageView settlementC1,
-      @NonNull ImageView settlementC2, @NonNull ImageView settlementC3,
-      @NonNull ImageView settlementC4, @NonNull ImageView settlementD2,
-      @NonNull ImageView settlementD3, @NonNull ImageView settlementD4,
-      @NonNull ImageView settlementE1, @NonNull ImageView settlementE2,
-      @NonNull ImageView settlementE3, @NonNull ImageView settlementE4,
-      @NonNull ImageView settlementE5, @NonNull ImageView settlementF2,
-      @NonNull ImageView settlementF3, @NonNull ImageView settlementF4,
-      @NonNull ImageView settlementF5, @NonNull ImageView settlementG2,
-      @NonNull ImageView settlementG3, @NonNull ImageView settlementG4,
-      @NonNull ImageView settlementG5, @NonNull ImageView settlementH1,
-      @NonNull ImageView settlementH2, @NonNull ImageView settlementH3,
-      @NonNull ImageView settlementH4, @NonNull ImageView settlementH5,
-      @NonNull ImageView settlementI2, @NonNull ImageView settlementI3,
-      @NonNull ImageView settlementI4, @NonNull ImageView settlementJ1,
-      @NonNull ImageView settlementJ2, @NonNull ImageView settlementJ3,
-      @NonNull ImageView settlementJ4, @NonNull ImageView settlementK2,
-      @NonNull ImageView settlementK3, @NonNull ConstraintLayout sheepCard,
-      @NonNull ImageView street10a, @NonNull ImageView street10b, @NonNull ImageView street10c,
-      @NonNull ImageView street10d, @NonNull ImageView street11a, @NonNull ImageView street11b,
-      @NonNull ImageView street11c, @NonNull ImageView street12a, @NonNull ImageView street12b,
-      @NonNull ImageView street12c, @NonNull ImageView street13a, @NonNull ImageView street13b,
-      @NonNull ImageView street13c, @NonNull ImageView street13d, @NonNull ImageView street14a,
-      @NonNull ImageView street14b, @NonNull ImageView street14c, @NonNull ImageView street14d,
-      @NonNull ImageView street14e, @NonNull ImageView street15a, @NonNull ImageView street15b,
-      @NonNull ImageView street15c, @NonNull ImageView street15d, @NonNull ImageView street15e,
-      @NonNull ImageView street16a, @NonNull ImageView street16b, @NonNull ImageView street16c,
-      @NonNull ImageView street16d, @NonNull ImageView street17a, @NonNull ImageView street17b,
-      @NonNull ImageView street17c, @NonNull ImageView street1a, @NonNull ImageView street1b,
-      @NonNull ImageView street1c, @NonNull ImageView street1d, @NonNull ImageView street2a,
-      @NonNull ImageView street2b, @NonNull ImageView street2c, @NonNull ImageView street2d,
-      @NonNull ImageView street2e, @NonNull ImageView street3a, @NonNull ImageView street3b,
-      @NonNull ImageView street3c, @NonNull ImageView street3d, @NonNull ImageView street3e,
-      @NonNull ImageView street3f, @NonNull ImageView street4a, @NonNull ImageView street4b,
-      @NonNull ImageView street4c, @NonNull ImageView street4d, @NonNull ImageView street4e,
-      @NonNull ImageView street5a, @NonNull ImageView street5b, @NonNull ImageView street5c,
-      @NonNull ImageView street5d, @NonNull ImageView street6a, @NonNull ImageView street6b,
-      @NonNull ImageView street6c, @NonNull ImageView street7a, @NonNull ImageView street7b,
-      @NonNull ImageView street7c, @NonNull ImageView street7d, @NonNull ImageView street8a,
-      @NonNull ImageView street8b, @NonNull ImageView street8c, @NonNull ImageView street8d,
-      @NonNull ImageView street8e, @NonNull ImageView street9a, @NonNull ImageView street9b,
-      @NonNull ImageView street9c, @NonNull ImageView street9d, @NonNull ImageView street9e,
-      @NonNull Button testButton, @NonNull ImageView tile1, @NonNull ImageView tile10,
-      @NonNull ConstraintLayout tile10DropArea, @NonNull ImageView tile10Number,
-      @NonNull EditText tile10NumberInput, @NonNull ImageView tile11,
-      @NonNull ConstraintLayout tile11DropArea, @NonNull ImageView tile11Number,
-      @NonNull EditText tile11NumberInput, @NonNull ImageView tile12,
-      @NonNull ConstraintLayout tile12DropArea, @NonNull ImageView tile12Number,
-      @NonNull EditText tile12NumberInput, @NonNull ImageView tile13,
-      @NonNull ConstraintLayout tile13DropArea, @NonNull ImageView tile13Number,
-      @NonNull EditText tile13NumberInput, @NonNull ImageView tile14,
-      @NonNull ConstraintLayout tile14DropArea, @NonNull ImageView tile14Number,
-      @NonNull EditText tile14NumberInput, @NonNull ImageView tile15,
-      @NonNull ConstraintLayout tile15DropArea, @NonNull ImageView tile15Number,
-      @NonNull EditText tile15NumberInput, @NonNull ImageView tile16,
-      @NonNull ConstraintLayout tile16DropArea, @NonNull ImageView tile16Number,
-      @NonNull EditText tile16NumberInput, @NonNull ImageView tile17,
-      @NonNull ConstraintLayout tile17DropArea, @NonNull ImageView tile17Number,
-      @NonNull EditText tile17NumberInput, @NonNull ImageView tile18,
-      @NonNull ConstraintLayout tile18DropArea, @NonNull ImageView tile18Number,
-      @NonNull EditText tile18NumberInput, @NonNull ImageView tile19,
-      @NonNull ConstraintLayout tile19DropArea, @NonNull ImageView tile19Number,
-      @NonNull EditText tile19NumberInput, @NonNull ConstraintLayout tile1DropArea,
-      @NonNull ImageView tile1Number, @NonNull EditText tile1NumberInput, @NonNull ImageView tile2,
+      @NonNull ImageView portTile8, @NonNull ImageView portTile9, @NonNull ViewPager screenPager,
+      @NonNull ImageView seaTile1, @NonNull ImageView seaTile10, @NonNull ImageView seaTile11,
+      @NonNull ImageView seaTile12, @NonNull ImageView seaTile13, @NonNull ImageView seaTile14,
+      @NonNull ImageView seaTile15, @NonNull ImageView seaTile16, @NonNull ImageView seaTile17,
+      @NonNull ImageView seaTile18, @NonNull ImageView seaTile2, @NonNull ImageView seaTile3,
+      @NonNull ImageView seaTile4, @NonNull ImageView seaTile5, @NonNull ImageView seaTile6,
+      @NonNull ImageView seaTile7, @NonNull ImageView seaTile8, @NonNull ImageView seaTile9,
+      @NonNull ImageView settlementB2, @NonNull ImageView settlementB3,
+      @NonNull ImageView settlementC1, @NonNull ImageView settlementC2,
+      @NonNull ImageView settlementC3, @NonNull ImageView settlementC4,
+      @NonNull ImageView settlementD2, @NonNull ImageView settlementD3,
+      @NonNull ImageView settlementD4, @NonNull ImageView settlementE1,
+      @NonNull ImageView settlementE2, @NonNull ImageView settlementE3,
+      @NonNull ImageView settlementE4, @NonNull ImageView settlementE5,
+      @NonNull ImageView settlementF2, @NonNull ImageView settlementF3,
+      @NonNull ImageView settlementF4, @NonNull ImageView settlementF5,
+      @NonNull ImageView settlementG2, @NonNull ImageView settlementG3,
+      @NonNull ImageView settlementG4, @NonNull ImageView settlementG5,
+      @NonNull ImageView settlementH1, @NonNull ImageView settlementH2,
+      @NonNull ImageView settlementH3, @NonNull ImageView settlementH4,
+      @NonNull ImageView settlementH5, @NonNull ImageView settlementI2,
+      @NonNull ImageView settlementI3, @NonNull ImageView settlementI4,
+      @NonNull ImageView settlementJ1, @NonNull ImageView settlementJ2,
+      @NonNull ImageView settlementJ3, @NonNull ImageView settlementJ4,
+      @NonNull ImageView settlementK2, @NonNull ImageView settlementK3,
+      @NonNull ConstraintLayout sheepCard, @NonNull ImageView street10a,
+      @NonNull ImageView street10b, @NonNull ImageView street10c, @NonNull ImageView street10d,
+      @NonNull ImageView street11a, @NonNull ImageView street11b, @NonNull ImageView street11c,
+      @NonNull ImageView street12a, @NonNull ImageView street12b, @NonNull ImageView street12c,
+      @NonNull ImageView street13a, @NonNull ImageView street13b, @NonNull ImageView street13c,
+      @NonNull ImageView street13d, @NonNull ImageView street14a, @NonNull ImageView street14b,
+      @NonNull ImageView street14c, @NonNull ImageView street14d, @NonNull ImageView street14e,
+      @NonNull ImageView street15a, @NonNull ImageView street15b, @NonNull ImageView street15c,
+      @NonNull ImageView street15d, @NonNull ImageView street15e, @NonNull ImageView street16a,
+      @NonNull ImageView street16b, @NonNull ImageView street16c, @NonNull ImageView street16d,
+      @NonNull ImageView street17a, @NonNull ImageView street17b, @NonNull ImageView street17c,
+      @NonNull ImageView street1a, @NonNull ImageView street1b, @NonNull ImageView street1c,
+      @NonNull ImageView street1d, @NonNull ImageView street2a, @NonNull ImageView street2b,
+      @NonNull ImageView street2c, @NonNull ImageView street2d, @NonNull ImageView street2e,
+      @NonNull ImageView street3a, @NonNull ImageView street3b, @NonNull ImageView street3c,
+      @NonNull ImageView street3d, @NonNull ImageView street3e, @NonNull ImageView street3f,
+      @NonNull ImageView street4a, @NonNull ImageView street4b, @NonNull ImageView street4c,
+      @NonNull ImageView street4d, @NonNull ImageView street4e, @NonNull ImageView street5a,
+      @NonNull ImageView street5b, @NonNull ImageView street5c, @NonNull ImageView street5d,
+      @NonNull ImageView street6a, @NonNull ImageView street6b, @NonNull ImageView street6c,
+      @NonNull ImageView street7a, @NonNull ImageView street7b, @NonNull ImageView street7c,
+      @NonNull ImageView street7d, @NonNull ImageView street8a, @NonNull ImageView street8b,
+      @NonNull ImageView street8c, @NonNull ImageView street8d, @NonNull ImageView street8e,
+      @NonNull ImageView street9a, @NonNull ImageView street9b, @NonNull ImageView street9c,
+      @NonNull ImageView street9d, @NonNull ImageView street9e, @NonNull TabLayout tabIndicator,
+      @NonNull ImageView tile1, @NonNull ImageView tile10, @NonNull ConstraintLayout tile10DropArea,
+      @NonNull ImageView tile10Number, @NonNull EditText tile10NumberInput,
+      @NonNull ImageView tile11, @NonNull ConstraintLayout tile11DropArea,
+      @NonNull ImageView tile11Number, @NonNull EditText tile11NumberInput,
+      @NonNull ImageView tile12, @NonNull ConstraintLayout tile12DropArea,
+      @NonNull ImageView tile12Number, @NonNull EditText tile12NumberInput,
+      @NonNull ImageView tile13, @NonNull ConstraintLayout tile13DropArea,
+      @NonNull ImageView tile13Number, @NonNull EditText tile13NumberInput,
+      @NonNull ImageView tile14, @NonNull ConstraintLayout tile14DropArea,
+      @NonNull ImageView tile14Number, @NonNull EditText tile14NumberInput,
+      @NonNull ImageView tile15, @NonNull ConstraintLayout tile15DropArea,
+      @NonNull ImageView tile15Number, @NonNull EditText tile15NumberInput,
+      @NonNull ImageView tile16, @NonNull ConstraintLayout tile16DropArea,
+      @NonNull ImageView tile16Number, @NonNull EditText tile16NumberInput,
+      @NonNull ImageView tile17, @NonNull ConstraintLayout tile17DropArea,
+      @NonNull ImageView tile17Number, @NonNull EditText tile17NumberInput,
+      @NonNull ImageView tile18, @NonNull ConstraintLayout tile18DropArea,
+      @NonNull ImageView tile18Number, @NonNull EditText tile18NumberInput,
+      @NonNull ImageView tile19, @NonNull ConstraintLayout tile19DropArea,
+      @NonNull ImageView tile19Number, @NonNull EditText tile19NumberInput,
+      @NonNull ConstraintLayout tile1DropArea, @NonNull ImageView tile1Number,
+      @NonNull EditText tile1NumberInput, @NonNull ImageView tile2,
       @NonNull ConstraintLayout tile2DropArea, @NonNull ImageView tile2Number,
       @NonNull EditText tile2NumberInput, @NonNull ImageView tile3,
       @NonNull ConstraintLayout tile3DropArea, @NonNull ImageView tile3Number,
@@ -888,6 +898,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.grainCard = grainCard;
     this.lumber1 = lumber1;
     this.lumberCard = lumberCard;
+    this.next = next;
     this.ore1 = ore1;
     this.oreCard = oreCard;
     this.portTile1 = portTile1;
@@ -920,6 +931,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.portTile7 = portTile7;
     this.portTile8 = portTile8;
     this.portTile9 = portTile9;
+    this.screenPager = screenPager;
     this.seaTile1 = seaTile1;
     this.seaTile10 = seaTile10;
     this.seaTile11 = seaTile11;
@@ -1047,7 +1059,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.street9c = street9c;
     this.street9d = street9d;
     this.street9e = street9e;
-    this.testButton = testButton;
+    this.tabIndicator = tabIndicator;
     this.tile1 = tile1;
     this.tile10 = tile10;
     this.tile10DropArea = tile10DropArea;
@@ -1225,6 +1237,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.lumber_card;
       ConstraintLayout lumberCard = ViewBindings.findChildViewById(rootView, id);
       if (lumberCard == null) {
+        break missingId;
+      }
+
+      id = R.id.next;
+      TextView next = ViewBindings.findChildViewById(rootView, id);
+      if (next == null) {
         break missingId;
       }
 
@@ -1417,6 +1435,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.portTile9;
       ImageView portTile9 = ViewBindings.findChildViewById(rootView, id);
       if (portTile9 == null) {
+        break missingId;
+      }
+
+      id = R.id.screenPager;
+      ViewPager screenPager = ViewBindings.findChildViewById(rootView, id);
+      if (screenPager == null) {
         break missingId;
       }
 
@@ -2182,9 +2206,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.test_button;
-      Button testButton = ViewBindings.findChildViewById(rootView, id);
-      if (testButton == null) {
+      id = R.id.tab_indicator;
+      TabLayout tabIndicator = ViewBindings.findChildViewById(rootView, id);
+      if (tabIndicator == null) {
         break missingId;
       }
 
@@ -2652,41 +2676,41 @@ public final class ActivityMainBinding implements ViewBinding {
 
       return new ActivityMainBinding((ConstraintLayout) rootView, board, brick1, brickCard, cards,
           clearButton, colorButton, constraintLayout, continueButton, desert, grain1, grainCard,
-          lumber1, lumberCard, ore1, oreCard, portTile1, portTile10, portTile11, portTile12,
+          lumber1, lumberCard, next, ore1, oreCard, portTile1, portTile10, portTile11, portTile12,
           portTile13, portTile14, portTile15, portTile16, portTile17, portTile18, portTile19,
           portTile2, portTile20, portTile21, portTile22, portTile23, portTile24, portTile25,
           portTile26, portTile27, portTile28, portTile29, portTile3, portTile30, portTile4,
-          portTile5, portTile6, portTile7, portTile8, portTile9, seaTile1, seaTile10, seaTile11,
-          seaTile12, seaTile13, seaTile14, seaTile15, seaTile16, seaTile17, seaTile18, seaTile2,
-          seaTile3, seaTile4, seaTile5, seaTile6, seaTile7, seaTile8, seaTile9, settlementB2,
-          settlementB3, settlementC1, settlementC2, settlementC3, settlementC4, settlementD2,
-          settlementD3, settlementD4, settlementE1, settlementE2, settlementE3, settlementE4,
-          settlementE5, settlementF2, settlementF3, settlementF4, settlementF5, settlementG2,
-          settlementG3, settlementG4, settlementG5, settlementH1, settlementH2, settlementH3,
-          settlementH4, settlementH5, settlementI2, settlementI3, settlementI4, settlementJ1,
-          settlementJ2, settlementJ3, settlementJ4, settlementK2, settlementK3, sheepCard,
-          street10a, street10b, street10c, street10d, street11a, street11b, street11c, street12a,
-          street12b, street12c, street13a, street13b, street13c, street13d, street14a, street14b,
-          street14c, street14d, street14e, street15a, street15b, street15c, street15d, street15e,
-          street16a, street16b, street16c, street16d, street17a, street17b, street17c, street1a,
-          street1b, street1c, street1d, street2a, street2b, street2c, street2d, street2e, street3a,
-          street3b, street3c, street3d, street3e, street3f, street4a, street4b, street4c, street4d,
-          street4e, street5a, street5b, street5c, street5d, street6a, street6b, street6c, street7a,
-          street7b, street7c, street7d, street8a, street8b, street8c, street8d, street8e, street9a,
-          street9b, street9c, street9d, street9e, testButton, tile1, tile10, tile10DropArea,
-          tile10Number, tile10NumberInput, tile11, tile11DropArea, tile11Number, tile11NumberInput,
-          tile12, tile12DropArea, tile12Number, tile12NumberInput, tile13, tile13DropArea,
-          tile13Number, tile13NumberInput, tile14, tile14DropArea, tile14Number, tile14NumberInput,
-          tile15, tile15DropArea, tile15Number, tile15NumberInput, tile16, tile16DropArea,
-          tile16Number, tile16NumberInput, tile17, tile17DropArea, tile17Number, tile17NumberInput,
-          tile18, tile18DropArea, tile18Number, tile18NumberInput, tile19, tile19DropArea,
-          tile19Number, tile19NumberInput, tile1DropArea, tile1Number, tile1NumberInput, tile2,
-          tile2DropArea, tile2Number, tile2NumberInput, tile3, tile3DropArea, tile3Number,
-          tile3NumberInput, tile4, tile4DropArea, tile4Number, tile4NumberInput, tile5,
-          tile5DropArea, tile5Number, tile5NumberInput, tile6, tile6DropArea, tile6Number,
-          tile6NumberInput, tile7, tile7DropArea, tile7Number, tile7NumberInput, tile8,
-          tile8DropArea, tile8Number, tile8NumberInput, tile9, tile9DropArea, tile9Number,
-          tile9NumberInput, wool1);
+          portTile5, portTile6, portTile7, portTile8, portTile9, screenPager, seaTile1, seaTile10,
+          seaTile11, seaTile12, seaTile13, seaTile14, seaTile15, seaTile16, seaTile17, seaTile18,
+          seaTile2, seaTile3, seaTile4, seaTile5, seaTile6, seaTile7, seaTile8, seaTile9,
+          settlementB2, settlementB3, settlementC1, settlementC2, settlementC3, settlementC4,
+          settlementD2, settlementD3, settlementD4, settlementE1, settlementE2, settlementE3,
+          settlementE4, settlementE5, settlementF2, settlementF3, settlementF4, settlementF5,
+          settlementG2, settlementG3, settlementG4, settlementG5, settlementH1, settlementH2,
+          settlementH3, settlementH4, settlementH5, settlementI2, settlementI3, settlementI4,
+          settlementJ1, settlementJ2, settlementJ3, settlementJ4, settlementK2, settlementK3,
+          sheepCard, street10a, street10b, street10c, street10d, street11a, street11b, street11c,
+          street12a, street12b, street12c, street13a, street13b, street13c, street13d, street14a,
+          street14b, street14c, street14d, street14e, street15a, street15b, street15c, street15d,
+          street15e, street16a, street16b, street16c, street16d, street17a, street17b, street17c,
+          street1a, street1b, street1c, street1d, street2a, street2b, street2c, street2d, street2e,
+          street3a, street3b, street3c, street3d, street3e, street3f, street4a, street4b, street4c,
+          street4d, street4e, street5a, street5b, street5c, street5d, street6a, street6b, street6c,
+          street7a, street7b, street7c, street7d, street8a, street8b, street8c, street8d, street8e,
+          street9a, street9b, street9c, street9d, street9e, tabIndicator, tile1, tile10,
+          tile10DropArea, tile10Number, tile10NumberInput, tile11, tile11DropArea, tile11Number,
+          tile11NumberInput, tile12, tile12DropArea, tile12Number, tile12NumberInput, tile13,
+          tile13DropArea, tile13Number, tile13NumberInput, tile14, tile14DropArea, tile14Number,
+          tile14NumberInput, tile15, tile15DropArea, tile15Number, tile15NumberInput, tile16,
+          tile16DropArea, tile16Number, tile16NumberInput, tile17, tile17DropArea, tile17Number,
+          tile17NumberInput, tile18, tile18DropArea, tile18Number, tile18NumberInput, tile19,
+          tile19DropArea, tile19Number, tile19NumberInput, tile1DropArea, tile1Number,
+          tile1NumberInput, tile2, tile2DropArea, tile2Number, tile2NumberInput, tile3,
+          tile3DropArea, tile3Number, tile3NumberInput, tile4, tile4DropArea, tile4Number,
+          tile4NumberInput, tile5, tile5DropArea, tile5Number, tile5NumberInput, tile6,
+          tile6DropArea, tile6Number, tile6NumberInput, tile7, tile7DropArea, tile7Number,
+          tile7NumberInput, tile8, tile8DropArea, tile8Number, tile8NumberInput, tile9,
+          tile9DropArea, tile9Number, tile9NumberInput, wool1);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

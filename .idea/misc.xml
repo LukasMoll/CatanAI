@@ -3,7 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/lukas/Documents/android/catan/app/app/src/main/res/drawable-hdpi/unselected.xml" value="0.11018518518518519" />
+        <entry key="..\:/Users/lukas/Documents/android/catan/app/app/src/main/res/drawable-mdpi/indicator_default.xml" value="0.18020833333333333" />
+        <entry key="..\:/Users/lukas/Documents/android/catan/app/app/src/main/res/drawable-mdpi/indicator_selector.xml" value="0.3203125" />
+        <entry key="..\:/Users/lukas/Documents/android/catan/app/app/src/main/res/drawable/ic_launcher_background.xml" value="1.9208333333333334" />
+        <entry key="..\:/Users/lukas/Documents/android/catan/app/app/src/main/res/drawable/indicator_selector.xml" value="0.11018518518518519" />
+        <entry key="..\:/Users/lukas/Documents/android/catan/app/app/src/main/res/drawable/selected.xml" value="0.1" />
+        <entry key="..\:/Users/lukas/Documents/android/catan/app/app/src/main/res/layout/activity_home.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/lukas/Documents/android/catan/app/app/src/main/res/layout/activity_intro.xml" value="0.29010416666666666" />
         <entry key="..\:/Users/lukas/Documents/android/catan/app/app/src/main/res/layout/activity_main.xml" value="0.536" />
+        <entry key="..\:/Users/lukas/Documents/android/catan/app/app/src/main/res/layout/board.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/lukas/Documents/android/catan/app/app/src/main/res/layout/info_fragment.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/lukas/Documents/android/catan/app/app/src/main/res/layout/info_pager_activity.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/lukas/Documents/android/catan/app/app/src/main/res/layout/layout_screen.xml" value="0.30416666666666664" />
+        <entry key="..\:/Users/lukas/Documents/android/catan/app/app/src/main/res/layout/onboardin_screen_layout.xml" value="0.25" />
         <entry key="..\:/Users/lukas/Documents/android/catan/app/app/src/main/res/layout/port_selector.xml" value="0.264" />
       </map>
     </option>

@@ -4,6 +4,10 @@ com/mollestudio/android/catanai/solver/Mapping.java
  com.mollestudio.android.catanai.solver.Mapping
 com/mollestudio/android/catanai/solver/Parser.java
  com.mollestudio.android.catanai.solver.Parser
+com/mollestudio/android/catanai/databinding/ActivityHomeBinding.java
+ com.mollestudio.android.catanai.databinding.ActivityHomeBinding
+com/mollestudio/android/catanai/databinding/OnboardinScreenLayoutBinding.java
+ com.mollestudio.android.catanai.databinding.OnboardinScreenLayoutBinding
 com/mollestudio/android/catanai/BuildConfig.java
  com.mollestudio.android.catanai.BuildConfig
 com/mollestudio/android/catanai/DataBindingTriggerClass.java

@@ -5,8 +5,56 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3F51B5"
+    android:background="#031B9F"
     tools:context=".MainActivity">
+
+  <androidx.viewpager.widget.ViewPager
+      android:id="@+id/screenPager"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_editor_absoluteX="1dp"
+      app:layout_editor_absoluteY="1dp" />
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="?actionBarSize"
+      android:layout_alignParentBottom="true"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tabBackground="@drawable/indicator_selector"
+        app:tabIndicatorHeight="0dp" />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Next"
+        android:textColor="@color/intro_title_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
   <!-- Mask Container -->
 
@@ -18,15 +66,6 @@
       android:layout_height="wrap_content"
       android:text="@string/clear"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
-
-  <Button
-      android:id="@+id/test_button"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="TESTING"
-      android:visibility="invisible"
-      app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
 
   <ImageView
@@ -439,7 +478,7 @@
         android:id="@+id/tile19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile19Empty"
         app:layout_constraintEnd_toEndOf="@+id/tile13"
         app:layout_constraintTop_toBottomOf="@+id/tile3"
         app:srcCompat="@drawable/tile"
@@ -449,7 +488,7 @@
         android:id="@+id/tile13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile13Empty"
         app:layout_constraintStart_toStartOf="@+id/tile1"
         app:layout_constraintTop_toBottomOf="@+id/tile1"
         app:srcCompat="@drawable/tile"
@@ -459,7 +498,7 @@
         android:id="@+id/tile11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile11Empty"
         android:translationX="-45dp"
         app:layout_constraintStart_toStartOf="@+id/tile12"
         app:layout_constraintTop_toTopOf="@+id/tile13"
@@ -472,7 +511,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="105dp"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile18Empty"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tile1"
         app:srcCompat="@drawable/tile"
@@ -482,7 +521,7 @@
         android:id="@+id/tile3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile3Empty"
         android:translationX="46dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tile1"
@@ -493,7 +532,7 @@
         android:id="@+id/tile14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile14Empty"
         app:layout_constraintStart_toStartOf="@+id/tile2"
         app:layout_constraintTop_toBottomOf="@+id/tile2"
         app:srcCompat="@drawable/tile"
@@ -504,7 +543,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile1Empty"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -516,7 +555,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="105dp"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile12Empty"
         android:translationX="-105dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -528,7 +567,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="144dp"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile2Empty"
         app:layout_constraintEnd_toStartOf="@+id/tile12"
         app:layout_constraintTop_toTopOf="@+id/tile12"
         app:srcCompat="@drawable/tile"
@@ -538,7 +577,7 @@
         android:id="@+id/tile4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile4Empty"
         android:translationX="46dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tile3"
@@ -549,7 +588,7 @@
         android:id="@+id/tile15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile15Empty"
         app:layout_constraintStart_toStartOf="@+id/tile14"
         app:layout_constraintTop_toBottomOf="@+id/tile14"
         app:srcCompat="@drawable/tile"
@@ -559,7 +598,7 @@
         android:id="@+id/tile16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile16Empty"
         app:layout_constraintStart_toStartOf="@+id/tile19"
         app:layout_constraintTop_toBottomOf="@+id/tile19"
         app:srcCompat="@drawable/tile"
@@ -569,7 +608,7 @@
         android:id="@+id/tile10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile10Empty"
         android:translationX="-45dp"
         app:layout_constraintStart_toStartOf="@+id/tile11"
         app:layout_constraintTop_toBottomOf="@+id/tile11"
@@ -580,7 +619,7 @@
         android:id="@+id/tile17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile17Empty"
         app:layout_constraintStart_toStartOf="@+id/tile18"
         app:layout_constraintTop_toBottomOf="@+id/tile18"
         app:srcCompat="@drawable/tile"
@@ -590,7 +629,7 @@
         android:id="@+id/tile8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile8Empty"
         app:layout_constraintStart_toStartOf="@+id/tile17"
         app:layout_constraintTop_toBottomOf="@+id/tile17"
         app:srcCompat="@drawable/tile"
@@ -600,7 +639,7 @@
         android:id="@+id/tile9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile9Empty"
         android:translationX="-45dp"
         app:layout_constraintStart_toStartOf="@+id/tile10"
         app:layout_constraintTop_toBottomOf="@+id/tile10"
@@ -611,7 +650,7 @@
         android:id="@+id/tile5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile5Empty"
         android:translationX="46dp"
         app:layout_constraintEnd_toEndOf="@+id/tile4"
         app:layout_constraintTop_toBottomOf="@+id/tile4"
@@ -622,7 +661,7 @@
         android:id="@+id/tile6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile6Empty"
         app:layout_constraintEnd_toEndOf="@+id/tile15"
         app:layout_constraintTop_toBottomOf="@+id/tile15"
         app:srcCompat="@drawable/tile"
@@ -632,7 +671,7 @@
         android:id="@+id/tile7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/empty_tile"
+        android:contentDescription="tile7Empty"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tile16"
@@ -1846,6 +1885,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="235dp"
         android:layout_marginTop="300dp"
+        android:contentDescription="settlement_h4"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1857,6 +1897,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="235dp"
         android:layout_marginTop="370dp"
+        android:contentDescription="settlement_h5"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1868,6 +1909,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="275dp"
         android:layout_marginTop="160dp"
+        android:contentDescription="settlement_i2"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1879,6 +1921,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="275dp"
         android:layout_marginTop="230dp"
+        android:contentDescription="settlement_i3"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1890,6 +1933,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="275dp"
         android:layout_marginTop="300dp"
+        android:contentDescription="settlement_i4"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1901,6 +1945,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="295dp"
         android:layout_marginTop="125dp"
+        android:contentDescription="settlement_j1"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1912,6 +1957,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="295dp"
         android:layout_marginTop="195dp"
+        android:contentDescription="settlement_j2"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1923,6 +1969,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="295dp"
         android:layout_marginTop="265dp"
+        android:contentDescription="settlement_j3"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1934,6 +1981,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="295dp"
         android:layout_marginTop="335dp"
+        android:contentDescription="settlement_j4"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1945,6 +1993,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="335dp"
         android:layout_marginTop="195dp"
+        android:contentDescription="settlement_k2"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1956,13 +2005,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="335dp"
         android:layout_marginTop="265dp"
+        android:contentDescription="settlement_k3"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/empty_settlement" />
 
     <ImageView
-        android:id="@+id/street1"
+        android:id="@+id/street1a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="h"
@@ -1975,7 +2025,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street1_2"
+        android:id="@+id/street1b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="210dp"
@@ -1988,7 +2038,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street1_3"
+        android:id="@+id/street1c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="280dp"
@@ -2001,7 +2051,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street1_4"
+        android:id="@+id/street1d"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="350dp"
@@ -2014,7 +2064,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street2"
+        android:id="@+id/street2a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="105dp"
@@ -2027,7 +2077,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street2_2"
+        android:id="@+id/street2b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="175dp"
@@ -2040,7 +2090,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street2_3"
+        android:id="@+id/street2c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="245dp"
@@ -2053,7 +2103,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street2_4"
+        android:id="@+id/street2d"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="315dp"
@@ -2066,7 +2116,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street2_5"
+        android:id="@+id/street2e"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="385dp"
@@ -2079,7 +2129,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street3"
+        android:id="@+id/street3a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
@@ -2091,7 +2141,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street3_2"
+        android:id="@+id/street3b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
@@ -2103,7 +2153,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street3_3"
+        android:id="@+id/street3c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="210dp"
@@ -2115,7 +2165,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street3_4"
+        android:id="@+id/street3d"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="280dp"
@@ -2127,7 +2177,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street3_5"
+        android:id="@+id/street3e"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="350dp"
@@ -2139,7 +2189,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street3_6"
+        android:id="@+id/street3f"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="420dp"
@@ -2151,7 +2201,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street4"
+        android:id="@+id/street4a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="105dp"
@@ -2164,7 +2214,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street4_2"
+        android:id="@+id/street4b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="175dp"
@@ -2177,7 +2227,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street4_3"
+        android:id="@+id/street4c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="245dp"
@@ -2190,7 +2240,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street4_4"
+        android:id="@+id/street4d"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="315dp"
@@ -2203,7 +2253,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street4_5"
+        android:id="@+id/street4e"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="385dp"
@@ -2216,7 +2266,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street5"
+        android:id="@+id/street5a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
@@ -2229,7 +2279,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street5_2"
+        android:id="@+id/street5b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="210dp"
@@ -2242,7 +2292,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street5_3"
+        android:id="@+id/street5c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="280dp"
@@ -2255,7 +2305,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street5_4"
+        android:id="@+id/street5d"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="350dp"
@@ -2268,7 +2318,7 @@
         app:srcCompat="@drawable/empty_street1" />
 
     <ImageView
-        android:id="@+id/street6"
+        android:id="@+id/street6a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
@@ -2281,7 +2331,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street6_2"
+        android:id="@+id/street6b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="210dp"
@@ -2294,7 +2344,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street6_3"
+        android:id="@+id/street6c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="280dp"
@@ -2307,7 +2357,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street7"
+        android:id="@+id/street7a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="105dp"
@@ -2320,7 +2370,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street7_2"
+        android:id="@+id/street7b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="175dp"
@@ -2333,7 +2383,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street7_3"
+        android:id="@+id/street7c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="245dp"
@@ -2346,7 +2396,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street7_4"
+        android:id="@+id/street7d"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="315dp"
@@ -2359,7 +2409,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street8"
+        android:id="@+id/street8a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
@@ -2372,7 +2422,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street8_2"
+        android:id="@+id/street8b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
@@ -2385,7 +2435,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street8_3"
+        android:id="@+id/street8c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="210dp"
@@ -2398,7 +2448,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street8_4"
+        android:id="@+id/street8d"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="280dp"
@@ -2411,7 +2461,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street8_5"
+        android:id="@+id/street8e"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="350dp"
@@ -2424,7 +2474,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street9"
+        android:id="@+id/street9a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="105dp"
@@ -2437,7 +2487,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street9_2"
+        android:id="@+id/street9b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="175dp"
@@ -2450,7 +2500,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street9_3"
+        android:id="@+id/street9c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="245dp"
@@ -2463,7 +2513,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street9_4"
+        android:id="@+id/street9d"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="315dp"
@@ -2476,7 +2526,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street9_5"
+        android:id="@+id/street9e"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="385dp"
@@ -2489,7 +2539,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street10"
+        android:id="@+id/street10a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
@@ -2502,7 +2552,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street10_2"
+        android:id="@+id/street10b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="210dp"
@@ -2515,7 +2565,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street10_3"
+        android:id="@+id/street10c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="280dp"
@@ -2528,7 +2578,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street10_4"
+        android:id="@+id/street10d"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="350dp"
@@ -2541,7 +2591,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street11"
+        android:id="@+id/street11a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="175dp"
@@ -2554,7 +2604,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street11_2"
+        android:id="@+id/street11b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="245dp"
@@ -2567,7 +2617,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street11_3"
+        android:id="@+id/street11c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="315dp"
@@ -2580,7 +2630,7 @@
         app:srcCompat="@drawable/empty_street3" />
 
     <ImageView
-        android:id="@+id/street12"
+        android:id="@+id/street12a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="175dp"
@@ -2593,7 +2643,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street12_2"
+        android:id="@+id/street12b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="245dp"
@@ -2606,7 +2656,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street12_3"
+        android:id="@+id/street12c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="315dp"
@@ -2619,7 +2669,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street13"
+        android:id="@+id/street13a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
@@ -2632,7 +2682,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street13_2"
+        android:id="@+id/street13b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="210dp"
@@ -2645,7 +2695,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street13_3"
+        android:id="@+id/street13c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="280dp"
@@ -2658,7 +2708,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street13_4"
+        android:id="@+id/street13d"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="350dp"
@@ -2671,7 +2721,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street14"
+        android:id="@+id/street14a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="105dp"
@@ -2684,7 +2734,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street14_2"
+        android:id="@+id/street14b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="175dp"
@@ -2697,7 +2747,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street14_3"
+        android:id="@+id/street14c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="245dp"
@@ -2710,7 +2760,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street14_4"
+        android:id="@+id/street14d"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="315dp"
@@ -2723,7 +2773,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street14_5"
+        android:id="@+id/street14e"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="385dp"
@@ -2736,7 +2786,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street15"
+        android:id="@+id/street15a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
@@ -2749,7 +2799,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street15_2"
+        android:id="@+id/street15b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
@@ -2762,7 +2812,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street15_3"
+        android:id="@+id/street15c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="210dp"
@@ -2775,7 +2825,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street15_4"
+        android:id="@+id/street15d"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="280dp"
@@ -2788,7 +2838,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street15_5"
+        android:id="@+id/street15e"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="350dp"
@@ -2801,7 +2851,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street16"
+        android:id="@+id/street16a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="105dp"
@@ -2814,7 +2864,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street16_2"
+        android:id="@+id/street16b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="175dp"
@@ -2827,7 +2877,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street16_3"
+        android:id="@+id/street16c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="245dp"
@@ -2840,7 +2890,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street16_4"
+        android:id="@+id/street16d"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="315dp"
@@ -2853,7 +2903,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street17"
+        android:id="@+id/street17a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
@@ -2866,7 +2916,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street17_2"
+        android:id="@+id/street17b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="210dp"
@@ -2879,7 +2929,7 @@
         app:srcCompat="@drawable/empty_street2" />
 
     <ImageView
-        android:id="@+id/street17_3"
+        android:id="@+id/street17c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="280dp"

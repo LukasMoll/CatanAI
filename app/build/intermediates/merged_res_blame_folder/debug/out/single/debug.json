@@ -36,6 +36,10 @@
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_adaptive_fore.png"
     },
     {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi-v21_ic_arrow_forward_black_24dp.xml.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi-v21\\ic_arrow_forward_black_24dp.xml"
+    },
+    {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_grain.gif.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\grain.gif"
     },
@@ -54,6 +58,10 @@
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_ore_port.png.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\ore_port.png"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_indicator_selected.xml.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable-mdpi\\indicator_selected.xml"
     },
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -76,12 +84,12 @@
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_dashed_lines_background.xml.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\dashed_lines_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_red_street3.png.flat",
@@ -94,6 +102,10 @@
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_grain_card.png.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\grain_card.png"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_baseline_arrow_forward_24.png.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_arrow_forward_24.png"
     },
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_adaptive_fore.png.flat",
@@ -112,6 +124,10 @@
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\desert2.gif"
     },
     {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_btn_gradient_style.xml.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable-mdpi\\btn_gradient_style.xml"
+    },
+    {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_lumber_port.png.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\lumber_port.png"
     },
@@ -124,12 +140,12 @@
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_droid_face.xml"
     },
     {
-        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_black_city.png.flat",
-        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\black_city.png"
-    },
-    {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_wool.gif.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\wool.gif"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_black_city.png.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\black_city.png"
     },
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -156,8 +172,20 @@
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\blue_settlement.png"
     },
     {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v21_ic_baseline_arrow_forward_24.xml.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_arrow_forward_24.xml"
+    },
+    {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_lumber2.gif.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\lumber2.gif"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\layout_onboardin_screen_layout.xml.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\layout\\onboardin_screen_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_baseline_arrow_forward_24.png.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_arrow_forward_24.png"
     },
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
@@ -166,6 +194,10 @@
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_red_city.png.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\red_city.png"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_baseline_arrow_forward_24.png.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_arrow_forward_24.png"
     },
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_green_street2.png.flat",
@@ -182,6 +214,10 @@
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-ldpi_ic_launcher.png.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\mipmap-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_intro2.gif.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\intro2.gif"
     },
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_number12.png.flat",
@@ -202,6 +238,18 @@
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_droid_face.png.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_droid_face.png"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_img3.png.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\img3.png"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_baseline_arrow_forward_24.png.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_arrow_forward_24.png"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_testgif.gif.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\testgif.gif"
     },
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_red_street1.png.flat",
@@ -236,6 +284,14 @@
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\green_button.png"
     },
     {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_intro4.gif.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\intro4.gif"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_baseline_arrow_forward_24.png.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_arrow_forward_24.png"
+    },
+    {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
@@ -260,12 +316,12 @@
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_number2.png.flat",
-        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\number2.png"
-    },
-    {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_number2.png.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\number2.png"
     },
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_adaptive_fore.png.flat",
@@ -296,6 +352,14 @@
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\grain_port.png"
     },
     {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_intro3.gif.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\intro3.gif"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_black_street1.png.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\black_street1.png"
     },
@@ -320,12 +384,28 @@
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\lumber_card.png"
     },
     {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_indicator_selector.xml.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\indicator_selector.xml"
+    },
+    {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_droid_face.png.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_droid_face.png"
     },
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v21_ic_mask.xml.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_mask.xml"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_baseline_arrow_forward_24.png.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_arrow_forward_24.png"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_img1.png.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\img1.png"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_selected.xml.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\selected.xml"
     },
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_adaptive_fore.png.flat",
@@ -350,6 +430,10 @@
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_ore.gif.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\ore.gif"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_indicator_default.xml.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable-mdpi\\indicator_default.xml"
     },
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_adaptive_back.png.flat",
@@ -380,12 +464,16 @@
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_red_street2.png.flat",
-        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\red_street2.png"
-    },
-    {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_mask.png.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_mask.png"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_img2.png.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\img2.png"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_red_street2.png.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\red_street2.png"
     },
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_adaptive_fore.png.flat",
@@ -400,12 +488,12 @@
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\brick2.gif"
     },
     {
-        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_brick_card.png.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\brick_card.png"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_sea.gif.flat",
@@ -448,8 +536,20 @@
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_adaptive_back.png"
     },
     {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_intro1.gif.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\intro1.gif"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_unselected.xml.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable-hdpi\\unselected.xml"
+    },
+    {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_sea2.gif.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\sea2.gif"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_arrow_forward_black_24dp.png.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_arrow_forward_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_blue_button.png.flat",
@@ -460,16 +560,20 @@
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_adaptive_back.png"
     },
     {
-        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_green_settlement.png.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\green_settlement.png"
     },
     {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable_number11.png.flat",
         "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable\\number11.png"
+    },
+    {
+        "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_indicator_selector.xml.flat",
+        "source": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\src\\main\\res\\drawable-mdpi\\indicator_selector.xml"
     },
     {
         "merged": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",

@@ -5,8 +5,56 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3F51B5"
+    android:background="#031B9F"
     tools:context=".MainActivity">
+
+  <androidx.viewpager.widget.ViewPager
+      android:id="@+id/screenPager"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_editor_absoluteX="1dp"
+      app:layout_editor_absoluteY="1dp" />
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="?actionBarSize"
+      android:layout_alignParentBottom="true"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tabBackground="@drawable/indicator_selector"
+        app:tabIndicatorHeight="0dp" />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:text="Next"
+        android:textColor="@color/intro_title_color"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
   <!-- Mask Container -->
 
@@ -18,15 +66,6 @@
       android:layout_height="wrap_content"
       android:text="@string/clear"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toTopOf="parent" />
-
-  <Button
-      android:id="@+id/test_button"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="TESTING"
-      android:visibility="visible"
-      app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
 
   <ImageView
@@ -1846,6 +1885,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="235dp"
         android:layout_marginTop="300dp"
+        android:contentDescription="settlement_h4"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1857,6 +1897,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="235dp"
         android:layout_marginTop="370dp"
+        android:contentDescription="settlement_h5"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1868,6 +1909,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="275dp"
         android:layout_marginTop="160dp"
+        android:contentDescription="settlement_i2"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1879,6 +1921,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="275dp"
         android:layout_marginTop="230dp"
+        android:contentDescription="settlement_i3"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1890,6 +1933,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="275dp"
         android:layout_marginTop="300dp"
+        android:contentDescription="settlement_i4"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1901,6 +1945,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="295dp"
         android:layout_marginTop="125dp"
+        android:contentDescription="settlement_j1"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1912,6 +1957,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="295dp"
         android:layout_marginTop="195dp"
+        android:contentDescription="settlement_j2"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1923,6 +1969,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="295dp"
         android:layout_marginTop="265dp"
+        android:contentDescription="settlement_j3"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1934,6 +1981,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="295dp"
         android:layout_marginTop="335dp"
+        android:contentDescription="settlement_j4"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1945,6 +1993,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="335dp"
         android:layout_marginTop="195dp"
+        android:contentDescription="settlement_k2"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -1956,6 +2005,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="335dp"
         android:layout_marginTop="265dp"
+        android:contentDescription="settlement_k3"
         android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
