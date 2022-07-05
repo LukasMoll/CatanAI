@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/catan_AI.iml" filepath="$PROJECT_DIR$/.idea/modules/catan_AI.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/catan_AI.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/catan_AI.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/catan_AI.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/catan_AI.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/catan_AI.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/catan_AI.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/catan_AI.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/catan_AI.app.unitTest.iml" />
     </modules>
   </component>
 </project>

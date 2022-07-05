@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml
+8-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml
+9-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\lukas\.gradle\caches\transforms-3\3259f7ab16ef86935ee4259b5c5cdc57\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:22:5-67
@@ -24,50 +24,50 @@
 14-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\lukas\.gradle\caches\transforms-3\afe67874521ce1c48b5fec3cf4569aae\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:22-107
 15
 16    <application
-16-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:6:5-30:19
+16-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:6:5-30:19
 17        android:allowBackup="false"
-17-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:7:9-36
+17-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:7:9-36
 18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 18-->[androidx.core:core:1.5.0] C:\Users\lukas\.gradle\caches\transforms-3\ad6aa3e137de17b1012b028d3130f498\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 19        android:debuggable="true"
-19-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:8:9-35
+19-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:8:9-35
 20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:9:9-43
+20-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:9:9-43
 21        android:label="@string/app_name"
-21-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:10:9-41
+21-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:10:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:11:9-54
+22-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:11:9-54
 23        android:screenOrientation="portrait"
-23-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:12:9-45
+23-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:12:9-45
 24        android:supportsRtl="true"
-24-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:13:9-35
+24-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:13:9-35
 25        android:testOnly="true"
 26        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-26-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:14:9-65
+26-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:14:9-65
 27        <activity
-27-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:16:9-18:39
+27-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:16:9-18:39
 28            android:name="com.mollestudio.android.catanai.HomeActivity"
-28-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:17:13-41
+28-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:17:13-41
 29            android:exported="true" />
-29-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:18:13-36
+29-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:18:13-36
 30        <!-- Main Activity -->
 31        <activity
-31-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:20:9-29:20
+31-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:20:9-29:20
 32            android:name="com.mollestudio.android.catanai.MainActivity"
-32-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:21:13-41
+32-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:21:13-41
 33            android:label="catan AI helper"
-33-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:22:13-44
+33-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:22:13-44
 34            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-34-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:23:13-69
+34-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:23:13-69
 35            <intent-filter>
-35-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:24:13-28:29
+35-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:24:13-28:29
 36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:25:17-69
-36-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:25:25-66
+36-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:25:17-69
+36-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:25:25-66
 37
 38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:27:17-77
-38-->C:\Users\lukas\Documents\android\catan\app\app\src\main\AndroidManifest.xml:27:27-74
+38-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:27:17-77
+38-->C:\Users\lukas\AndroidStudioProjects\CatanAI2\app\src\main\AndroidManifest.xml:27:27-74
 39            </intent-filter>
 40        </activity>
 41

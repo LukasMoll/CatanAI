@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lukas\\Documents\\android\\catan\\app\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
+            "outputFile": "C:\\Users\\lukas\\AndroidStudioProjects\\CatanAI2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
             "map": [
                 {
                     "source": "C:\\Users\\lukas\\.gradle\\caches\\transforms-3\\164ff0234a7cb732427a39fb52be9023\\transformed\\material-1.4.0\\res\\values-sq\\values-sq.xml",

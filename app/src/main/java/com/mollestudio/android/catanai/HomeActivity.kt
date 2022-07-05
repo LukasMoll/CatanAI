@@ -384,7 +384,9 @@ class HomeActivity : AppCompatActivity() {
     tile18 = binding.tile18
     tile19 = binding.tile19
     */
-        //binding.next.visibility = View.INVISIBLE
+
+        // todo next
+        binding.next.visibility = View.INVISIBLE
 
         tile1 = findViewById(R.id.tile1)
         tile2 = findViewById(R.id.tile2)
